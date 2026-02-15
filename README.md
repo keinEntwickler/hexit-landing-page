@@ -1,6 +1,6 @@
 # hexit Landing Page
 
-Multilingual landing page for [hexit](https://github.com/keinEntwickler/hexit), an iOS color guessing game.
+Multilingual landing page for [hexit](https://apps.apple.com/app/id6757846499), an iOS color guessing game.
 
 Live at: [keinentwickler.github.io/hexit-landing-page](https://keinentwickler.github.io/hexit-landing-page/)
 
