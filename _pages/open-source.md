@@ -3,7 +3,10 @@ layout: page
 title: Open Source
 include_in_header: false
 lang: en
+last_updated: 2026-02-15
 ---
+
+*Last updated: {{ page.last_updated }}*
 
 # Open Source
 

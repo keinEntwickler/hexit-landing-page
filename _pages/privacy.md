@@ -3,7 +3,10 @@ layout: page
 title: Privacy Policy
 include_in_header: false
 lang: en
+last_updated: 2026-02-15
 ---
+
+*Last updated: {{ page.last_updated }}*
 
 <div class="lang-selector">
   <a href="#italiano">Italiano</a>
