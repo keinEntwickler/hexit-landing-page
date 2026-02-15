@@ -16,6 +16,17 @@ app_description                           : Train your color eye in minutes a da
 
 enable_smart_app_banner                   : true
 
+# Legal Information
+legal:
+  name: "Marco Ostermeier"
+  street: "Maretschgasse 3"
+  postal_code: "39100"
+  city: "Bozen/Bolzano (BZ)"
+  country: "Italy"
+  email: "appstore-keinentwickler@pm.me"
+  partita_iva: "IT16757831009"
+  last_updated: "15 February 2026"
+
 # Information About Yourself
 your_name                                 : keinEntwickler
 your_link                                 : https://github.com/keinEntwickler

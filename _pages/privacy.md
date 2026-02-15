@@ -21,7 +21,7 @@ last_updated: 2026-02-15
 
 **Ultimo aggiornamento:** {{ page.last_updated }}
 
-**hexit** è un'app iOS sviluppata da {{ site.data.legal.name }}, con sede a Bolzano, Alto Adige, Italia.
+**hexit** è un'app iOS sviluppata da {{ site.legal.name }}, con sede a Bolzano, Alto Adige, Italia.
 
 ### Quali dati raccogliamo?
 
@@ -45,11 +45,11 @@ Ai sensi del Regolamento Generale sulla Protezione dei Dati (UE) 2016/679, avete
 
 ### Titolare del trattamento
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
-Email: {{ site.data.legal.email }}<br>
-Partita IVA: {{ site.data.legal.partita_iva }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}<br>
+Email: {{ site.legal.email }}<br>
+Partita IVA: {{ site.legal.partita_iva }}
 
 ---
 
@@ -57,7 +57,7 @@ Partita IVA: {{ site.data.legal.partita_iva }}
 
 **Letzte Aktualisierung:** {{ page.last_updated }}
 
-**hexit** ist eine iOS-App, entwickelt von {{ site.data.legal.name }} mit Sitz in Bozen, Südtirol, Italien.
+**hexit** ist eine iOS-App, entwickelt von {{ site.legal.name }} mit Sitz in Bozen, Südtirol, Italien.
 
 ### Welche Daten erheben wir?
 
@@ -81,11 +81,11 @@ Gemäß der Datenschutz-Grundverordnung (EU) 2016/679 haben Sie das Recht auf Au
 
 ### Kontakt
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
-E-Mail: {{ site.data.legal.email }}<br>
-USt-IdNr.: {{ site.data.legal.partita_iva }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}<br>
+E-Mail: {{ site.legal.email }}<br>
+USt-IdNr.: {{ site.legal.partita_iva }}
 
 ---
 
@@ -93,7 +93,7 @@ USt-IdNr.: {{ site.data.legal.partita_iva }}
 
 **Last updated:** {{ page.last_updated }}
 
-**hexit** is an iOS app developed by {{ site.data.legal.name }}, based in Bozen (Bolzano), South Tyrol, Italy.
+**hexit** is an iOS app developed by {{ site.legal.name }}, based in Bozen (Bolzano), South Tyrol, Italy.
 
 ### What data do we collect?
 
@@ -117,11 +117,11 @@ Under the General Data Protection Regulation (EU) 2016/679, you have the right t
 
 ### Contact
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
-Email: {{ site.data.legal.email }}<br>
-VAT: {{ site.data.legal.partita_iva }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}<br>
+Email: {{ site.legal.email }}<br>
+VAT: {{ site.legal.partita_iva }}
 
 ---
 
@@ -129,7 +129,7 @@ VAT: {{ site.data.legal.partita_iva }}
 
 **Dernière mise à jour :** {{ page.last_updated }}
 
-**hexit** est une application iOS développée par {{ site.data.legal.name }}, basée à Bozen (Bolzano), Tyrol du Sud, Italie.
+**hexit** est une application iOS développée par {{ site.legal.name }}, basée à Bozen (Bolzano), Tyrol du Sud, Italie.
 
 ### Quelles données collectons-nous ?
 
@@ -153,11 +153,11 @@ En vertu du Règlement Général sur la Protection des Données (UE) 2016/679, v
 
 ### Contact
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
-E-mail : {{ site.data.legal.email }}<br>
-TVA : {{ site.data.legal.partita_iva }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}<br>
+E-mail : {{ site.legal.email }}<br>
+TVA : {{ site.legal.partita_iva }}
 
 ---
 
@@ -165,7 +165,7 @@ TVA : {{ site.data.legal.partita_iva }}
 
 **Última actualización:** {{ page.last_updated }}
 
-**hexit** es una aplicación iOS desarrollada por {{ site.data.legal.name }}, con sede en Bozen (Bolzano), Tirol del Sur, Italia.
+**hexit** es una aplicación iOS desarrollada por {{ site.legal.name }}, con sede en Bozen (Bolzano), Tirol del Sur, Italia.
 
 ### ¿Qué datos recogemos?
 
@@ -189,11 +189,11 @@ Según el Reglamento General de Protección de Datos (UE) 2016/679, usted tiene 
 
 ### Contacto
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
-Correo electrónico: {{ site.data.legal.email }}<br>
-IVA: {{ site.data.legal.partita_iva }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}<br>
+Correo electrónico: {{ site.legal.email }}<br>
+IVA: {{ site.legal.partita_iva }}
 
 ---
 
@@ -201,7 +201,7 @@ IVA: {{ site.data.legal.partita_iva }}
 
 **最后更新：** {{ page.last_updated }}
 
-**hexit** 是一款 iOS 应用，由 {{ site.data.legal.name }} 开发，总部位于意大利南蒂罗尔博尔扎诺。
+**hexit** 是一款 iOS 应用，由 {{ site.legal.name }} 开发，总部位于意大利南蒂罗尔博尔扎诺。
 
 ### 我们收集哪些数据？
 
@@ -225,8 +225,8 @@ hexit 提供应用内购买。所有交易完全由 Apple 通过 App Store 处�
 
 ### 联系方式
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
-电子邮件：{{ site.data.legal.email }}<br>
-增值税号：{{ site.data.legal.partita_iva }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}<br>
+电子邮件：{{ site.legal.email }}<br>
+增值税号：{{ site.legal.partita_iva }}

@@ -23,17 +23,17 @@ Ai sensi dell'art. 7 del D.Lgs. 70/2003.
 
 ### Titolare
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}
 
 ### Contatto
 
-E-mail: {{ site.data.legal.email }}
+E-mail: {{ site.legal.email }}
 
 ### Partita IVA
 
-{{ site.data.legal.partita_iva }}
+{{ site.legal.partita_iva }}
 
 ### Contenuti
 
@@ -51,17 +51,17 @@ Angaben gemäß D.Lgs. 70/2003 (Italien).
 
 ### Verantwortlich
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}
 
 ### Kontakt
 
-E-Mail: {{ site.data.legal.email }}
+E-Mail: {{ site.legal.email }}
 
 ### Umsatzsteuer-Identifikationsnummer
 
-{{ site.data.legal.partita_iva }}
+{{ site.legal.partita_iva }}
 
 ### Inhalte
 
@@ -79,17 +79,17 @@ In accordance with Italian Legislative Decree 70/2003, Art. 7.
 
 ### Responsible party
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}
 
 ### Contact
 
-Email: {{ site.data.legal.email }}
+Email: {{ site.legal.email }}
 
 ### VAT Number
 
-{{ site.data.legal.partita_iva }}
+{{ site.legal.partita_iva }}
 
 ### Content
 
@@ -107,17 +107,17 @@ Conformément au décret législatif italien 70/2003, art. 7.
 
 ### Responsable
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}
 
 ### Contact
 
-E-mail : {{ site.data.legal.email }}
+E-mail : {{ site.legal.email }}
 
 ### Numéro de TVA
 
-{{ site.data.legal.partita_iva }}
+{{ site.legal.partita_iva }}
 
 ### Contenu
 
@@ -135,17 +135,17 @@ De conformidad con el Decreto Legislativo italiano 70/2003, art. 7.
 
 ### Responsable
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}
 
 ### Contacto
 
-Correo electrónico: {{ site.data.legal.email }}
+Correo electrónico: {{ site.legal.email }}
 
 ### Número de IVA
 
-{{ site.data.legal.partita_iva }}
+{{ site.legal.partita_iva }}
 
 ### Contenido
 
@@ -163,17 +163,17 @@ Este sitio puede contener enlaces a sitios web externos. No tenemos control sobr
 
 ### 责任方
 
-{{ site.data.legal.name }}<br>
-{{ site.data.legal.street }}<br>
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
+{{ site.legal.name }}<br>
+{{ site.legal.street }}<br>
+{{ site.legal.postal_code }} {{ site.legal.city }}, {{ site.legal.country }}
 
 ### 联系方式
 
-电子邮件：{{ site.data.legal.email }}
+电子邮件：{{ site.legal.email }}
 
 ### 增值税号
 
-{{ site.data.legal.partita_iva }}
+{{ site.legal.partita_iva }}
 
 ### 内容
 
