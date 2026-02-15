@@ -13,7 +13,9 @@
 		</div>
 		<a href="{{ site.baseurl }}/" target="_self" class="headerName">{{ site.app_name }}</a>
 	</div>
+	{% if page.ref %}
 	<nav class="scroll">
 		{% include language-switcher.html %}
 	</nav>
+	{% endif %}
 </header>
