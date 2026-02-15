@@ -7,7 +7,9 @@ lang: en
 
 # Open Source
 
-hexit is built with care on the shoulders of excellent open-source Swift libraries. We want to give a shoutout to the projects and people who make this possible.
+**hexit** is a hex color guessing game for iOS. See a color, pick the matching hex code, and sharpen your color intuition one round at a time.
+
+It is built with care on the shoulders of excellent open-source Swift libraries. We want to give a shoutout to the projects and people who make this possible.
 
 <br>
 
