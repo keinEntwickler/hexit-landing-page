@@ -1,0 +1,13 @@
+<div class="language-switcher">
+{% for lang in site.languages %}
+  {% if lang.code == page.lang %}
+    <span class="lang-current">{{ lang.flag }} {{ lang.name }}</span>
+  {% else %}
+    {% if lang.code == site.default_lang %}
+      <a href="{{ site.baseurl }}/" class="lang-link" target="_self">{{ lang.flag }} {{ lang.name }}</a>
+    {% else %}
+      <a href="{{ site.baseurl }}/{{ lang.code }}/" class="lang-link" target="_self">{{ lang.flag }} {{ lang.name }}</a>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</div>

@@ -8,8 +8,8 @@
 					</clipPath>
 				</defs>
 			</svg>
-			{% if page.url != '/' %}
-				<a href="../" target="_self"><img class="headerIcon" src="{{ site.app_icon | relative_url }}"></a>
+			{% if page.url != '/' and page.url != '/index.html' %}
+				<a href="{{ site.baseurl }}/" target="_self"><img class="headerIcon" src="{{ site.app_icon | relative_url }}"></a>
 			{% else %}
 				<img class="headerIcon" src="{{ site.app_icon | relative_url }}">
 			{% endif %}
@@ -19,14 +19,7 @@
 	</div>
 	<nav class="scroll">
 		<ul>
-			{% for page in site.pages %}
-				{% if page.include_in_header == true %}
-				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
-				{% endif %}
-			{% endfor %}
-			{% if site.presskit_download_link %}
-				<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
-			{% endif %}
+			{% include language-switcher.html %}
 		</ul>
 	</nav>
 </header>

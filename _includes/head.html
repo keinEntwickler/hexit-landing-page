@@ -4,13 +4,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<base target="_blank">
 
-	<title class="pageTitle">{{ site.page_title }}</title>
-	<meta name="description" content="{{ site.app_description }}">
+	{% assign t = site.data.translations[page.lang] | default: site.data.translations.en %}
+
+	<title class="pageTitle">{{ site.page_title }}{% if page.title %} — {{ page.title }}{% endif %}</title>
+	<meta name="description" content="{{ t.description | default: site.app_description }}">
+	{% if t.keywords %}<meta name="keywords" content="{{ t.keywords }}">{% endif %}
 
 	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
 
+	<!-- hreflang & canonical -->
+	{% include hreflang.html %}
+
+	<!-- JSON-LD -->
+	{% if page.ref %}{% include jsonld.html %}{% endif %}
+
 	<!-- Smart App Banner -->
-	{% if site.enable_smart_app_banner %}
+	{% if site.enable_smart_app_banner and site.ios_app_id != "" and site.ios_app_id %}
 		<meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}">
 	{% endif %}
 

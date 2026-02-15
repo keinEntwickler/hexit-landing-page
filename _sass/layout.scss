@@ -29,7 +29,7 @@
 }
 
 .subPageHeaderBackground {
-	background-color: #fff;
+	background-color: $body-color;
 }
 
 .container {					// Set up the container for the site content
@@ -50,7 +50,7 @@
 
 .subPageContainer {
 	grid-template-rows: 115px auto auto auto;
-	background-color: #fff;
+	background-color: $body-color;
 }
 
 @media only screen and (max-width: 768px) {
@@ -225,17 +225,17 @@ nav > ul li a:active {
 
 // Sub Page Header Styling
 .subPageHeaderBackground .logo > p {
-	color: #000;
+	color: $header-title-color;
 }
 
 .subPageHeaderBackground nav > ul li a:link,
 .subPageHeaderBackground nav > ul li a:visited {
-	color: rgba(#000, 0.6);
+	color: rgba($header-title-color, 0.6);
 }
 
 .subPageHeaderBackground nav > ul li a:hover,
 .subPageHeaderBackground nav > ul li a:active {
-	color: rgba(#000, 1);
+	color: rgba($header-title-color, 1);
 }
 
 
@@ -684,4 +684,38 @@ footer {
 
 .hidden {
 	display: none;
+}
+
+// Language Switcher
+.language-switcher {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	flex-wrap: nowrap;
+}
+
+.language-switcher .lang-current {
+	color: $header-title-color;
+	font-weight: bold;
+	font-size: 0.85rem;
+	white-space: nowrap;
+}
+
+.language-switcher .lang-link {
+	color: rgba($header-title-color, 0.6);
+	text-decoration: none;
+	font-size: 0.85rem;
+	white-space: nowrap;
+	transition: color 0.2s;
+}
+
+.language-switcher .lang-link:hover {
+	color: $header-title-color;
+}
+
+@media only screen and (max-width: 768px) {
+	.language-switcher {
+		gap: 8px;
+		font-size: 0.75rem;
+	}
 }
