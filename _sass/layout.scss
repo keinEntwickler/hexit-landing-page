@@ -9,25 +9,6 @@
 	background-attachment: fixed;
 }
 
-.imageWrapper {
-	min-height: 100vh;
-}
-
-.headerBackground {
-	height: 115px;
-}
-
-@media only screen and (max-width: 768px) {
-
-	.headerBackground {
-		height: 80px;
-	}
-
-}
-
-.subPageHeaderBackground {
-}
-
 .container {					// Set up the container for the site content
 	display: grid;
 	margin: auto;
@@ -624,6 +605,69 @@ $feature-color-6: #9b59b6; // purple — iCloud
 }
 
 
+
+// Subpage footer overrides (white background pages)
+.subPageBody footer {
+	background: #f5f5f5;
+	border-top: 1px solid #e0e0e0;
+	margin-top: 60px;
+}
+
+.subPageBody .footerText {
+	color: #555;
+}
+
+.subPageBody .footerText a {
+	color: #333;
+}
+
+.subPageBody .socialIconBack {
+	color: #ddd;
+}
+
+.subPageBody .socialIconTop {
+	color: #555;
+}
+
+.subPageBody .footerIcons > a:nth-child(1) .socialIconTop { color: #e94560; }
+.subPageBody .footerIcons > a:nth-child(2) .socialIconTop { color: #27ae60; }
+.subPageBody .footerIcons > a:nth-child(3) .socialIconTop { color: #3498db; }
+
+.subPageBody .footerLinks a {
+	color: #555;
+}
+
+// Language pill selector
+.lang-selector {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	padding: 24px 0;
+}
+
+.lang-selector a {
+	display: inline-block;
+	padding: 8px 20px;
+	border-radius: 24px;
+	font-weight: 600;
+	font-size: 0.9em;
+	text-decoration: none;
+	color: #fff;
+	transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.lang-selector a:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.lang-selector a:nth-child(1) { background: #e94560; }
+.lang-selector a:nth-child(2) { background: #e67e22; }
+.lang-selector a:nth-child(3) { background: #27ae60; }
+.lang-selector a:nth-child(4) { background: #3498db; }
+.lang-selector a:nth-child(5) { background: #9b59b6; }
+.lang-selector a:nth-child(6) { background: #f7dc6f; color: #333; }
 
 // Footer
 
