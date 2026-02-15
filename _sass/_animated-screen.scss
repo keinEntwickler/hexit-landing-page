@@ -1,0 +1,203 @@
+// Animated device preview
+// Cycles between Classic and Inverted game modes
+// 3s hold → 0.5s slide → 3s hold → 0.5s slide → loop (7s total)
+
+$as-duration: 7s;
+
+@keyframes as-slide {
+  0%      { transform: translateX(0); }
+  42.857% { transform: translateX(0); animation-timing-function: ease-in-out; }
+  50%     { transform: translateX(-33.333%); }
+  92.857% { transform: translateX(-33.333%); animation-timing-function: ease-in-out; }
+  100%    { transform: translateX(-66.667%); }
+}
+
+@keyframes as-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+// Screen container — matches .videoContainer dimensions + clip-path
+.animatedScreen {
+  width: 349px;
+  height: 755px;
+  -webkit-clip-path: url(#screenMask);
+  clip-path: url(#screenMask);
+  margin-left: 26px;
+  margin-top: 23px;
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: #fff;
+}
+
+// Top bar: mode pill + stats
+.as-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 52px 16px 8px;
+  flex-shrink: 0;
+}
+
+.as-pillWrap {
+  overflow: hidden;
+  width: 78px;
+  height: 28px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.as-pillTrack {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  animation: as-slide $as-duration infinite;
+}
+
+.as-pill {
+  width: calc(100% / 3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.as-stats {
+  display: flex;
+  gap: 10px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.as-stat--heart  { color: #e94560; }
+.as-stat--fire   { color: #e67e22; }
+.as-stat--trophy { color: #f7dc6f; }
+
+// Card viewport
+.as-viewport {
+  flex: 1;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.as-track {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  animation: as-slide $as-duration infinite;
+}
+
+.as-card {
+  width: calc(100% / 3);
+  height: 100%;
+  padding: 4px 16px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.as-cardInner {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.as-cardInner--classic {
+  background: #A0CAC9;
+}
+
+.as-cardInner--inverted {
+  display: flex;
+  flex-direction: column;
+}
+
+.as-half      { flex: 1; }
+.as-half--top { background: #D3E3C0; }
+.as-half--bottom { background: #A0CAC9; }
+
+// Bottom hex code bar
+.as-bottom {
+  padding: 8px 16px 24px;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.as-hexField {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 10px 24px;
+  font-family: "SF Mono", "Menlo", "Consolas", monospace;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.as-hexField::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: #fff;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+  animation: as-blink 1s step-end infinite;
+}
+
+// Responsive: 1070px
+@media only screen and (max-width: 1070px) {
+  .animatedScreen {
+    width: 322px;
+    height: 698px;
+    margin-left: 24px;
+    margin-top: 22px;
+  }
+
+  .as-top { padding: 48px 14px 6px; }
+  .as-pillWrap { width: 72px; height: 26px; border-radius: 13px; }
+  .as-pill { font-size: 10px; }
+  .as-stats { font-size: 10px; gap: 8px; }
+  .as-card { padding: 4px 14px; }
+  .as-cardInner { border-radius: 18px; }
+  .as-bottom { padding: 6px 14px 22px; }
+  .as-hexField { font-size: 14px; padding: 8px 20px; border-radius: 10px; }
+}
+
+// Responsive: 992px
+@media only screen and (max-width: 992px) {
+  .animatedScreen {
+    width: 226px;
+    height: 488px;
+    margin: 0;
+    margin-top: 17px;
+  }
+
+  .as-top { padding: 34px 10px 4px; }
+  .as-pillWrap { width: 56px; height: 20px; border-radius: 10px; }
+  .as-pill { font-size: 8px; }
+  .as-stats { font-size: 8px; gap: 5px; }
+  .as-card { padding: 2px 10px; }
+  .as-cardInner { border-radius: 12px; }
+  .as-bottom { padding: 4px 10px 16px; }
+  .as-hexField { font-size: 11px; padding: 6px 14px; border-radius: 8px; letter-spacing: 0.5px; }
+}
+
+// Reduced motion fallback — show static card 1
+@media (prefers-reduced-motion: reduce) {
+  .as-track,
+  .as-pillTrack {
+    animation: none;
+  }
+
+  .as-hexField::after {
+    animation: none;
+    opacity: 0;
+  }
+}
