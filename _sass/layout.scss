@@ -90,6 +90,11 @@ header {
 	text-decoration: none;
 }
 
+// Rainbow app name: he(red) x(green) it(blue)
+.appname-he { color: #e94560; }
+.appname-x  { color: #27ae60; }
+.appname-it { color: #3498db; }
+
 @media only screen and (max-width: 768px) {
 
 	.logo {

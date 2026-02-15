@@ -11,7 +11,7 @@
 			<a href="{{ site.baseurl }}/"><img class="headerIcon" src="{{ site.app_icon | relative_url }}"></a>
 			<div class="divider"></div>
 		</div>
-		<a href="{{ site.baseurl }}/" class="headerName">{{ site.app_name }}</a>
+		<a href="{{ site.baseurl }}/" class="headerName">{% include appname-rainbow.html %}</a>
 	</div>
 	{% if page.ref %}
 	<nav class="scroll">
