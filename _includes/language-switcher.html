@@ -1,5 +1,5 @@
 <div class="language-dropdown">
-  <button class="language-dropdown-toggle" onclick="this.parentElement.classList.toggle('open')">
+  <button class="language-dropdown-toggle" type="button" aria-expanded="false" aria-haspopup="true">
     {% for lang in site.languages %}
       {% if lang.code == page.lang %}
         {{ lang.flag }} {{ lang.name }}

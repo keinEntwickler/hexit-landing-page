@@ -47,13 +47,12 @@
                         </div>
                         <div class="downloadButtonsContainer">
                             {% if site.appstore_link and site.appstore_link != "" %}
-                                <a class="appStoreLink" href="{{ site.appstore_link }}"><img class="appStore" src="{{ 'assets/appstore.png' | relative_url }}"></a>
+                                <a class="appStoreLink" href="{{ site.appstore_link }}" target="_blank" rel="noopener noreferrer"><img class="appStore" src="{{ 'assets/appstore.png' | relative_url }}"></a>
                             {% endif %}
                         </div>
                     </div>
                     {% include features.html %}
                     {% include footer.html %}
-                    {% include appstoreimages.html %}
                 </div>
 </body>
 </html>
