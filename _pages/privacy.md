@@ -5,9 +5,14 @@ include_in_header: false
 lang: en
 ---
 
-[Italiano](#italiano) | [Deutsch](#deutsch) | [English](#english) | [Français](#francais) | [Español](#espanol) | [中文](#chinese)
-
----
+<div class="lang-selector">
+  <a href="#italiano">Italiano</a>
+  <a href="#deutsch">Deutsch</a>
+  <a href="#english">English</a>
+  <a href="#francais">Français</a>
+  <a href="#espanol">Español</a>
+  <a href="#chinese">中文</a>
+</div>
 
 ## Informativa sulla Privacy {#italiano}
 
