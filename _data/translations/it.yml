@@ -1,15 +1,15 @@
 lang: it
 lang_name: Italiano
 tagline: "Allena il tuo occhio ai colori in pochi minuti al giorno."
-description: "Vedi un colore, scegli il codice giusto e migliori round dopo round."
+description: "Vedi un colore, scegli il codice esadecimale giusto e migliori partita dopo partita."
 keywords: "colore,gioco,indovina,esadecimale,rgb,puzzle,serie,quiz,cervello,sfida,design"
 app_store_button: "Scarica dall'App Store"
 features:
-  - title: "Round brevi"
-    description: "Ogni round dura pochi secondi: un colore, due opzioni, risposta immediata. Anche quando sbagli impari, grazie al dettaglio RGB."
+  - title: "Partite rapide"
+    description: "Ogni partita dura pochi secondi: un colore, due opzioni, risposta immediata. Anche quando sbagli impari, grazie al dettaglio RGB."
     icon: "bolt"
   - title: "Sei modalità"
-    description: "Core, Invertita, Cursore RGB, Pratica, Esagonale e Blitz. Dall'apprendimento rilassato alle sfide veloci."
+    description: "Core, Invertita, Cursore RGB, Pratica, Esagonale e Blitz. Dall'apprendimento rilassato alle sfide a tempo."
     icon: "th"
   - title: "Progresso reale"
     description: "Segui precisione, tempo di risposta e serie. Guarda crescere il tuo intuito per i colori."
@@ -27,4 +27,4 @@ footer:
   made_by: "Creato da"
   privacy: "Privacy"
   legal: "Note legali"
-  open_source: "Open Source"
+  open_source: "Codice sorgente aperto"

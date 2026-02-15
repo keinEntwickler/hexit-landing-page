@@ -1,7 +1,7 @@
 lang: es
 lang_name: "Español"
 tagline: "Entrena tu ojo para el color en pocos minutos al día."
-description: "Ves un color, eliges el código correcto y mejoras ronda a ronda."
+description: "Ves un color, eliges el código hexadecimal correcto y mejoras partida a partida."
 keywords: "color,juego,adivinar,hexadecimal,rgb,puzzle,racha,quiz,cerebro,desafío,diseño"
 app_store_button: "Descargar en el App Store"
 features:
@@ -9,7 +9,7 @@ features:
     description: "Cada ronda dura segundos: un color, dos opciones y respuesta inmediata. Si fallas, también aprendes gracias al desglose RGB."
     icon: "bolt"
   - title: "Seis modos de juego"
-    description: "Core, Invertido, Deslizador RGB, Práctica, Hexagonal y Blitz. Del aprendizaje relajado a las carreras de velocidad."
+    description: "Core, Invertido, Deslizador RGB, Práctica, Hexagonal y Blitz. Del aprendizaje relajado a los desafíos contrarreloj."
     icon: "th"
   - title: "Progreso real"
     description: "Sigue tu precisión, tiempo de respuesta y rachas. Observa cómo crece tu intuición del color."

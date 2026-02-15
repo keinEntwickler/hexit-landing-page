@@ -10,9 +10,9 @@ last_updated: 2026-02-15
 
 # Open Source
 
-**hexit** is a hex color guessing game for iOS. See a color, pick the matching hex code, and sharpen your color intuition one round at a time.
+**hexit** is a hex color guessing game for iOS. You see a color, pick the matching hex code, and improve your color intuition one round at a time.
 
-It is built with care on the shoulders of excellent open-source Swift libraries. We want to give a shoutout to the projects and people who make this possible.
+This app would not exist without open source. A lot of hard problems are already solved by people who share great tools and ideas, and this page is our thank-you note to them.
 
 <br>
 
@@ -31,10 +31,10 @@ It is built with care on the shoulders of excellent open-source Swift libraries.
 
 ## This Landing Page
 
-This landing page is a fork of [Automatic App Landing Page](https://github.com/emilbaehr/automatic-app-landing-page) by [Emil Baehr](https://emilbaehr.com) — a clean, open-source Jekyll template for iOS app websites. We added multilingual support and customized it for hexit.
+This landing page started as a fork of [Automatic App Landing Page](https://github.com/emilbaehr/automatic-app-landing-page) by [Emil Baehr](https://emilbaehr.com). We adapted it for hexit and added multilingual support.
 
 <br>
 
 ## Thank You
 
-Building an indie app as a solo developer is only possible because of the generous open-source community. If you use any of these libraries, consider supporting their creators.
+Building an indie app as a solo developer is much easier because of the open-source community. If these libraries help your work too, please consider supporting their maintainers.

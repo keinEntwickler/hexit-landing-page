@@ -19,7 +19,7 @@ last_updated: 2026-02-15
 
 ## Informativa sulla Privacy {#italiano}
 
-**Ultimo aggiornamento:** {{ site.data.legal.last_updated }}
+**Ultimo aggiornamento:** {{ page.last_updated }}
 
 **hexit** è un'app iOS sviluppata da {{ site.data.legal.name }}, con sede a Bolzano, Alto Adige, Italia.
 
@@ -41,7 +41,7 @@ Quando scaricate o utilizzate hexit, Apple potrebbe raccogliere determinati dati
 
 ### I vostri diritti ai sensi del GDPR
 
-Ai sensi del Regolamento Generale sulla Protezione dei Dati (UE) 2016/679, avete il diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità dei dati e il diritto di opposizione. Poiché non raccogliamo alcun dato personale, tali diritti non trovano applicazione pratica. Tuttavia, potete contattarci in qualsiasi momento.
+Ai sensi del Regolamento Generale sulla Protezione dei Dati (UE) 2016/679, avete il diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità dei dati e il diritto di opposizione. Poiché non raccogliamo alcun dato personale, tali diritti non trovano applicazione pratica. È comunque possibile contattarci in qualsiasi momento.
 
 ### Titolare del trattamento
 
@@ -55,7 +55,7 @@ Partita IVA: {{ site.data.legal.partita_iva }}
 
 ## Datenschutzerklärung {#deutsch}
 
-**Letzte Aktualisierung:** {{ site.data.legal.last_updated }}
+**Letzte Aktualisierung:** {{ page.last_updated }}
 
 **hexit** ist eine iOS-App, entwickelt von {{ site.data.legal.name }} mit Sitz in Bozen, Südtirol, Italien.
 
@@ -77,7 +77,7 @@ Wenn Sie hexit herunterladen oder nutzen, kann Apple gemäß seiner eigenen Date
 
 ### Ihre Rechte gemäß DSGVO
 
-Gemäß der Datenschutz-Grundverordnung (EU) 2016/679 haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie das Recht auf Widerspruch. Da wir keine personenbezogenen Daten erheben, finden diese Rechte praktisch keine Anwendung. Sie können uns jedoch jederzeit kontaktieren.
+Gemäß der Datenschutz-Grundverordnung (EU) 2016/679 haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie das Recht auf Widerspruch. Da wir keine personenbezogenen Daten erheben, finden diese Rechte praktisch keine Anwendung. Eine Kontaktaufnahme ist jederzeit möglich.
 
 ### Kontakt
 
@@ -91,7 +91,7 @@ USt-IdNr.: {{ site.data.legal.partita_iva }}
 
 ## Privacy Policy {#english}
 
-**Last updated:** {{ site.data.legal.last_updated }}
+**Last updated:** {{ page.last_updated }}
 
 **hexit** is an iOS app developed by {{ site.data.legal.name }}, based in Bozen (Bolzano), South Tyrol, Italy.
 
@@ -113,7 +113,7 @@ When you download or use hexit, Apple may collect certain data according to thei
 
 ### Your rights under GDPR
 
-Under the General Data Protection Regulation (EU) 2016/679, you have the right to access, rectify, delete, restrict, and port your personal data, as well as the right to object to processing. Since we do not collect any personal data, these rights do not practically apply. However, you are welcome to contact us at any time.
+Under the General Data Protection Regulation (EU) 2016/679, you have the right to access, rectify, delete, restrict, and port your personal data, as well as the right to object to processing. Since we do not collect any personal data, these rights do not practically apply. You may contact us at any time.
 
 ### Contact
 
@@ -127,7 +127,7 @@ VAT: {{ site.data.legal.partita_iva }}
 
 ## Politique de Confidentialité {#francais}
 
-**Dernière mise à jour :** {{ site.data.legal.last_updated }}
+**Dernière mise à jour :** {{ page.last_updated }}
 
 **hexit** est une application iOS développée par {{ site.data.legal.name }}, basée à Bozen (Bolzano), Tyrol du Sud, Italie.
 
@@ -163,7 +163,7 @@ TVA : {{ site.data.legal.partita_iva }}
 
 ## Política de Privacidad {#espanol}
 
-**Última actualización:** {{ site.data.legal.last_updated }}
+**Última actualización:** {{ page.last_updated }}
 
 **hexit** es una aplicación iOS desarrollada por {{ site.data.legal.name }}, con sede en Bozen (Bolzano), Tirol del Sur, Italia.
 
@@ -199,7 +199,7 @@ IVA: {{ site.data.legal.partita_iva }}
 
 ## 隐私政策 {#chinese}
 
-**最后更新：** {{ site.data.legal.last_updated }}
+**最后更新：** {{ page.last_updated }}
 
 **hexit** 是一款 iOS 应用，由 {{ site.data.legal.name }} 开发，总部位于意大利南蒂罗尔博尔扎诺。
 
@@ -221,7 +221,7 @@ hexit 提供应用内购买。所有交易完全由 Apple 通过 App Store 处�
 
 ### 您在 GDPR 下的权利
 
-根据《通用数据保护条例》（欧盟）2016/679，您有权访问、更正、删除、限制处理和转移您的个人数据，以及反对处理的权利。由于我们不收集任何个人数据，这些权利在实际中不适用。不过，欢迎您随时联系我们。
+根据《通用数据保护条例》（欧盟）2016/679，您有权访问、更正、删除、限制处理和转移您的个人数据，以及反对处理的权利。由于我们不收集任何个人数据，这些权利在实际中不适用。您仍可随时联系我们。
 
 ### 联系方式
 
