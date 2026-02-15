@@ -1,18 +1,7 @@
-.imageWrapper {					// Sets the background image in the header area
+.imageWrapper {
 	height: 714px;
-	background: 
-		linear-gradient(
-		rgba($image-overlay-color, $image-overlay-transparency), 
-		rgba($image-overlay-color, $image-overlay-transparency)
-		   ),
-		
-		url($header-image);
-
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top;
+	background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
 	border-radius: 0px 0px 40px 40px;
-
 }
 
 .headerBackground {
@@ -41,7 +30,7 @@
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 115px 876px auto auto;
 	grid-column-gap: 30px;
-	grid-template-areas: 
+	grid-template-areas:
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
@@ -66,7 +55,7 @@
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
 		grid-template-rows: 115px auto auto auto auto;
-		grid-template-areas: 
+		grid-template-areas:
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
@@ -88,8 +77,8 @@
 		margin-bottom: 70px;
 		grid-column: 1/-1;
 	}
-	
-} 
+
+}
 
 header {
 	grid-area: h;
@@ -105,12 +94,13 @@ header {
 	margin-right: 30px;
 }
 
-.logo > p {
+.logo > .headerName {
 	color: $header-title-color;
 	white-space: nowrap;
 	display: flex;
 	font-weight: bold;
 	margin-left: 15px;
+	text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -120,11 +110,11 @@ header {
 		margin-right: 0px;
 	}
 
-	.logo > p {
+	.logo > .headerName {
 		display: none;
 	}
-	
-} 
+
+}
 
 .headerIcon {
 	width: 50px;
@@ -142,9 +132,9 @@ header {
 		background-color:rgba(127, 127, 127, 0.2);
 		display: inline-block;
 		margin-left: 15px;
-	}	
-	
-} 
+	}
+
+}
 
 
 // Navigation Links
@@ -155,7 +145,6 @@ header {
 	justify-content: flex-end;
 
 	height: 115px;
-	//margin-left: 15px;
 
 	white-space: nowrap;
 	overflow-x: auto;
@@ -168,13 +157,13 @@ header {
 
 	.scroll {
 		height: 80px;
-		padding-top: 100px;
-		padding-bottom: 100px;
-		margin-top: -60px;
-		justify-content: flex-start;
-	}	
-	
-} 
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-top: 0;
+		justify-content: flex-end;
+	}
+
+}
 
 .scroll::-webkit-scrollbar {
 	display: none;
@@ -224,18 +213,18 @@ nav > ul li a:active {
 
 
 // Sub Page Header Styling
-.subPageHeaderBackground .logo > p {
-	color: $header-title-color;
+.subPageHeaderBackground .logo > .headerName {
+	color: #000;
 }
 
 .subPageHeaderBackground nav > ul li a:link,
 .subPageHeaderBackground nav > ul li a:visited {
-	color: rgba($header-title-color, 0.6);
+	color: rgba(0, 0, 0, 0.6);
 }
 
 .subPageHeaderBackground nav > ul li a:hover,
 .subPageHeaderBackground nav > ul li a:active {
-	color: rgba($header-title-color, 1);
+	color: rgba(0, 0, 0, 1);
 }
 
 
@@ -257,7 +246,7 @@ nav > ul li a:active {
 		justify-content: center;
 	}
 
-} 
+}
 
 .appIconShadow {
 	display: flex;
@@ -303,13 +292,13 @@ nav > ul li a:active {
 		margin-top: 30px;
 		text-align: center;
 	}
-	
+
 	.appPrice {
 		margin-top: 13px;
 		text-align: center;
 	}
-	
-} 
+
+}
 
 .appDescriptionContainer {
 	font-size: 2.5rem;
@@ -330,8 +319,8 @@ nav > ul li a:active {
 	.appDescription {
 		text-align: center;
 	}
-	
-} 
+
+}
 
 .downloadButtonsContainer {
 	display: inline-block;
@@ -344,8 +333,8 @@ nav > ul li a:active {
 	.downloadButtonsContainer {
 		text-align: center;
 	}
-	
-} 
+
+}
 
 .playStore {
 	height: 75px;
@@ -358,8 +347,8 @@ nav > ul li a:active {
 		margin-right: 24px;
 		margin-bottom: 0px;
 	}
-	
-} 
+
+}
 
 @media only screen and (max-width: 528px) {
 
@@ -367,8 +356,8 @@ nav > ul li a:active {
 		margin-right: 0px;
 		margin-bottom: 24px;
 	}
-	
-} 
+
+}
 
 .appStore {
 	height: 75px;
@@ -426,13 +415,13 @@ nav > ul li a:active {
 		margin-left: 24px;
 		margin-top: 22px;
 	}
-	
+
 	.videoContainer > video {
 		width: 322px;
 		height: 698px;
 	}
-	
-} 
+
+}
 
 @media only screen and (max-width: 992px) {
 
@@ -465,8 +454,8 @@ nav > ul li a:active {
 		width: 226px;
 		height: 488px;
 	}
-	
-} 
+
+}
 
 
 // Feature List
@@ -491,7 +480,7 @@ nav > ul li a:active {
 }
 
 .feature:nth-child(-n+3) {
-    padding-top: 0px;   
+    padding-top: 0px;
 }
 
 .feature:nth-child(3n) {
@@ -509,6 +498,28 @@ nav > ul li a:active {
 .iconTop {
 	color: $feature-icons-foreground-color;
 }
+
+// Colorful per-feature icon and title colors
+$feature-color-1: #e94560; // red — Quick Rounds
+$feature-color-2: #f5a623; // orange — Six Modes
+$feature-color-3: #27ae60; // green — Progress
+$feature-color-4: #f1c40f; // gold — Game Center
+$feature-color-5: #3498db; // blue — Privacy
+$feature-color-6: #9b59b6; // purple — iCloud
+
+.feature:nth-child(1) .iconTop { color: $feature-color-1; }
+.feature:nth-child(2) .iconTop { color: $feature-color-2; }
+.feature:nth-child(3) .iconTop { color: $feature-color-3; }
+.feature:nth-child(4) .iconTop { color: $feature-color-4; }
+.feature:nth-child(5) .iconTop { color: $feature-color-5; }
+.feature:nth-child(6) .iconTop { color: $feature-color-6; }
+
+.feature:nth-child(1) .featureText > h3 { color: $feature-color-1; }
+.feature:nth-child(2) .featureText > h3 { color: $feature-color-2; }
+.feature:nth-child(3) .featureText > h3 { color: $feature-color-3; }
+.feature:nth-child(4) .featureText > h3 { color: $feature-color-4; }
+.feature:nth-child(5) .featureText > h3 { color: $feature-color-5; }
+.feature:nth-child(6) .featureText > h3 { color: $feature-color-6; }
 
 .socialIconBack {
 	color: $social-icons-background-color;
@@ -550,21 +561,21 @@ nav > ul li a:active {
 	}
 
 	.feature:nth-child(-n+3) {
-		padding-top: 41px;   
+		padding-top: 41px;
 	}
 
 	.feature:nth-child(1) {
-		padding-top: 0px;   
+		padding-top: 0px;
 	}
 
 	.feature:nth-child(3n) {
 		padding-right: 15px;
 	}
-	
+
 	.feature:nth-child(3n+1) {
 		padding-left: 15px;
 	}
-	
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -585,22 +596,22 @@ nav > ul li a:active {
 	}
 
 	.feature:nth-child(-n+3) {
-		padding-top: 41px;   
+		padding-top: 41px;
 	}
 
 	.feature:nth-child(1) {
-		padding-top: 0px;   
+		padding-top: 0px;
 	}
 
 	.feature:nth-child(3n) {
 		padding-right: 0px;
 	}
-	
+
 	.feature:nth-child(3n+1) {
 		padding-left: 0px;
 	}
-	
-} 
+
+}
 
 
 
@@ -659,12 +670,12 @@ footer {
 
 	.footerLinks a:first-child {
 		margin-top: 0px;
-	}	
+	}
 
 }
 
 @media only screen and (max-width: 992px) {
-	
+
 	.footerText {
 		color: $footer-text-color;
 		display: block;
@@ -674,48 +685,90 @@ footer {
 		padding-top: 54px;
 		padding-bottom: 61px;
 	}
-	
+
 	.footerIcons {
 		padding-bottom: 70px;
 		display: flex;
 	}
-	
-} 
+
+}
 
 .hidden {
 	display: none;
 }
 
-// Language Switcher
-.language-switcher {
+// Language Dropdown
+.language-dropdown {
+	position: relative;
+}
+
+.language-dropdown-toggle {
+	background: none;
+	border: none;
+	color: rgba($header-title-color, 0.8);
+	cursor: pointer;
+	font-size: 1.4rem;
+	font-family: inherit;
 	display: flex;
 	align-items: center;
-	gap: 12px;
-	flex-wrap: nowrap;
+	gap: 6px;
+	padding: 6px 12px;
+	border-radius: 6px;
+	transition: background-color 0.2s;
 }
 
-.language-switcher .lang-current {
-	color: $header-title-color;
-	font-weight: bold;
-	font-size: 0.85rem;
-	white-space: nowrap;
+.language-dropdown-toggle:hover {
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
-.language-switcher .lang-link {
-	color: rgba($header-title-color, 0.6);
+.language-dropdown-toggle i {
+	font-size: 0.7rem;
+	transition: transform 0.2s;
+}
+
+.language-dropdown.open .language-dropdown-toggle i {
+	transform: rotate(180deg);
+}
+
+.language-dropdown-menu {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: calc(100% + 4px);
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.08);
+	min-width: 170px;
+	z-index: 100;
+	padding: 6px 0;
+	overflow: hidden;
+}
+
+.language-dropdown.open .language-dropdown-menu {
+	display: block;
+}
+
+.language-dropdown-menu a,
+.language-dropdown-menu a:link,
+.language-dropdown-menu a:visited {
+	display: block;
+	padding: 10px 16px;
+	color: #333 !important;
 	text-decoration: none;
-	font-size: 0.85rem;
-	white-space: nowrap;
-	transition: color 0.2s;
+	font-size: 1.4rem;
+	transition: background-color 0.15s;
 }
 
-.language-switcher .lang-link:hover {
-	color: $header-title-color;
+.language-dropdown-menu a:hover {
+	background-color: #f5f5f5;
+	color: #000 !important;
 }
 
-@media only screen and (max-width: 768px) {
-	.language-switcher {
-		gap: 8px;
-		font-size: 0.75rem;
-	}
+// Sub-page dropdown styling
+.subPageHeaderBackground .language-dropdown-toggle {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.subPageHeaderBackground .language-dropdown-toggle:hover {
+	background-color: rgba(0, 0, 0, 0.05);
 }

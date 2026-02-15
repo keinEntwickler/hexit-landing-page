@@ -8,18 +8,12 @@
 					</clipPath>
 				</defs>
 			</svg>
-			{% if page.url != '/' and page.url != '/index.html' %}
-				<a href="{{ site.baseurl }}/" target="_self"><img class="headerIcon" src="{{ site.app_icon | relative_url }}"></a>
-			{% else %}
-				<img class="headerIcon" src="{{ site.app_icon | relative_url }}">
-			{% endif %}
+			<a href="{{ site.baseurl }}/" target="_self"><img class="headerIcon" src="{{ site.app_icon | relative_url }}"></a>
 			<div class="divider"></div>
 		</div>
-		<p class="headerName">{{ site.app_name }}</p>
+		<a href="{{ site.baseurl }}/" target="_self" class="headerName">{{ site.app_name }}</a>
 	</div>
 	<nav class="scroll">
-		<ul>
-			{% include language-switcher.html %}
-		</ul>
+		{% include language-switcher.html %}
 	</nav>
 </header>

@@ -20,49 +20,9 @@ body {
 	background-color: $body-color;
 }
 
-// Dark theme overrides for markdown content
 .markdown-body {
-	color: #e0e0e0;
-	background-color: transparent;
-
-	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
-		border-bottom-color: rgba(255, 255, 255, 0.1);
-	}
-
 	a {
 		color: $accent-color;
-	}
-
-	hr {
-		background-color: rgba(255, 255, 255, 0.15);
-	}
-
-	table {
-		th, td {
-			border-color: rgba(255, 255, 255, 0.15);
-		}
-		tr {
-			background-color: transparent;
-			border-color: rgba(255, 255, 255, 0.1);
-		}
-		tr:nth-child(2n) {
-			background-color: rgba(255, 255, 255, 0.03);
-		}
-	}
-
-	blockquote {
-		color: #b0b0cc;
-		border-left-color: rgba(255, 255, 255, 0.15);
-	}
-
-	code {
-		background-color: rgba(255, 255, 255, 0.08);
-		color: #e0e0e0;
-	}
-
-	pre {
-		background-color: rgba(255, 255, 255, 0.05);
 	}
 }
 
@@ -94,7 +54,7 @@ a:active {
 }
 
 // Shadows
-$drop-shadow: 	drop-shadow(0px 5px 10px rgba(#000, 0.1)) 
+$drop-shadow: 	drop-shadow(0px 5px 10px rgba(#000, 0.1))
 				drop-shadow(0px 1px 1px rgba(#000, 0.2)
 				);
 

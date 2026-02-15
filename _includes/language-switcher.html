@@ -1,13 +1,21 @@
-<div class="language-switcher">
-{% for lang in site.languages %}
-  {% if lang.code == page.lang %}
-    <span class="lang-current">{{ lang.flag }} {{ lang.name }}</span>
-  {% else %}
-    {% if lang.code == site.default_lang %}
-      <a href="{{ site.baseurl }}/" class="lang-link" target="_self">{{ lang.flag }} {{ lang.name }}</a>
-    {% else %}
-      <a href="{{ site.baseurl }}/{{ lang.code }}/" class="lang-link" target="_self">{{ lang.flag }} {{ lang.name }}</a>
-    {% endif %}
-  {% endif %}
-{% endfor %}
+<div class="language-dropdown">
+  <button class="language-dropdown-toggle" onclick="this.parentElement.classList.toggle('open')">
+    {% for lang in site.languages %}
+      {% if lang.code == page.lang %}
+        {{ lang.flag }} {{ lang.name }}
+      {% endif %}
+    {% endfor %}
+    <i class="fas fa-chevron-down fa-xs"></i>
+  </button>
+  <div class="language-dropdown-menu">
+    {% for lang in site.languages %}
+      {% if lang.code != page.lang %}
+        {% if lang.code == site.default_lang %}
+          <a href="{{ site.baseurl }}/" target="_self">{{ lang.flag }} {{ lang.name }}</a>
+        {% else %}
+          <a href="{{ site.baseurl }}/{{ lang.code }}/" target="_self">{{ lang.flag }} {{ lang.name }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
