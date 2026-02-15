@@ -305,9 +305,20 @@ nav > ul li a:active {
 	color: $app-description-color;
 }
 
+.appSubDescription {
+	color: rgba($app-description-color, 0.6);
+	margin-top: 16px;
+	font-size: 1.8rem;
+	line-height: 1.6;
+}
+
 @media only screen and (max-width: 992px) {
 
 	.appDescription {
+		text-align: center;
+	}
+
+	.appSubDescription {
 		text-align: center;
 	}
 

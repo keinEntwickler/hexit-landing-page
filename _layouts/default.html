@@ -41,6 +41,9 @@
                             <p class="appDescription">
                                 {{ t.tagline | default: site.app_description }}
                             </p>
+                            <p class="appSubDescription">
+                                {{ t.description }}
+                            </p>
                         </div>
                         <div class="downloadButtonsContainer">
                             {% if site.appstore_link and site.appstore_link != "" %}
