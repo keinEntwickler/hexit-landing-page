@@ -1,12 +1,15 @@
-.imageWrapper {
-	min-height: 100vh;
+.landingBody {
 	background:
 		radial-gradient(ellipse at 15% 60%, rgba(100, 160, 140, 0.12) 0%, transparent 50%),
 		radial-gradient(ellipse at 75% 20%, rgba(160, 202, 201, 0.10) 0%, transparent 45%),
 		radial-gradient(ellipse at 50% 90%, rgba(130, 170, 120, 0.08) 0%, transparent 50%),
 		radial-gradient(ellipse at 90% 70%, rgba(80, 140, 160, 0.10) 0%, transparent 45%),
 		radial-gradient(ellipse at 30% 15%, rgba(160, 180, 140, 0.06) 0%, transparent 40%),
-		#0c0c0c;
+		#0c0c0c !important;
+}
+
+.imageWrapper {
+	min-height: 100vh;
 }
 
 .headerBackground {
@@ -505,9 +508,9 @@ nav > ul li a:active {
 
 // Colorful per-feature icon and title colors
 $feature-color-1: #e94560; // red — Quick Rounds
-$feature-color-2: #f5a623; // orange — Six Modes
+$feature-color-2: #e67e22; // orange — Six Modes
 $feature-color-3: #27ae60; // green — Progress
-$feature-color-4: #f1c40f; // gold — Game Center
+$feature-color-4: #f7dc6f; // yellow — Game Center
 $feature-color-5: #3498db; // blue — Privacy
 $feature-color-6: #9b59b6; // purple — iCloud
 
@@ -532,6 +535,11 @@ $feature-color-6: #9b59b6; // purple — iCloud
 .socialIconTop {
 	color: $social-icons-foreground-color;
 }
+
+// RGB social icons
+.footerIcons > a:nth-child(1) .socialIconTop { color: #e94560; } // R
+.footerIcons > a:nth-child(2) .socialIconTop { color: #27ae60; } // G
+.footerIcons > a:nth-child(3) .socialIconTop { color: #3498db; } // B
 
 .featureText {
 	margin-left: 18px;
