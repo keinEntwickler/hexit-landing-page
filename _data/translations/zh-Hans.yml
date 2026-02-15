@@ -1,7 +1,7 @@
 lang: zh-Hans
 lang_name: "中文"
 tagline: "每天几分钟，训练你的色彩判断。"
-description: "看颜色，选出正确的十六进制代码，每一局都能进步一点。"
+description: "看准颜色，选出对应的16进制代码。一局比一局更准，一点点刷新你的最高记录。"
 keywords: "颜色,游戏,猜测,十六进制,rgb,拼图,连胜,答题,大脑,挑战,设计"
 app_store_button: "在 App Store 下载"
 features:

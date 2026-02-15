@@ -37,16 +37,13 @@
   flex-shrink: 0;
 }
 
-// Dot indicators
+// Dot indicators — outside clip-path, below the phone frame
 .sc-dots {
-  position: absolute;
-  bottom: 12%;
-  left: 0;
-  right: 0;
+  width: 400px;
   display: flex;
   justify-content: center;
   gap: 8px;
-  z-index: 1;
+  margin-top: 30px;
 }
 
 .sc-dot {
@@ -73,12 +70,16 @@
     margin-top: 22px;
   }
 
-  .sc-dots { bottom: 12%; }
+  .sc-dots { width: 370px; margin-top: 26px; }
   .sc-dot { width: 7px; height: 7px; }
 }
 
 // Responsive: 992px
 @media only screen and (max-width: 992px) {
+  .iphonePreview {
+    flex-wrap: wrap;
+  }
+
   .screenCarousel {
     width: 226px;
     height: 488px;
@@ -86,7 +87,12 @@
     margin-top: 17px;
   }
 
-  .sc-dots { bottom: 12%; gap: 6px; }
+  .sc-dots {
+    flex-basis: 100%;
+    width: auto;
+    margin-top: 20px;
+    gap: 6px;
+  }
   .sc-dot { width: 6px; height: 6px; }
 }
 
