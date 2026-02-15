@@ -618,7 +618,7 @@ $feature-color-6: #9b59b6; // purple — iCloud
 }
 
 .subPageBody .footerText a {
-	color: #333;
+	color: #e67e22 !important;
 }
 
 .subPageBody .socialIconBack {
@@ -653,21 +653,29 @@ $feature-color-6: #9b59b6; // purple — iCloud
 	font-weight: 600;
 	font-size: 0.9em;
 	text-decoration: none;
-	color: #fff;
-	transition: transform 0.15s, box-shadow 0.15s;
+	background: transparent;
+	border: 2px solid;
+	transition: background 0.15s, color 0.15s, transform 0.15s;
 }
 
 .lang-selector a:hover {
 	transform: translateY(-2px);
-	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	color: #fff;
 }
 
-.lang-selector a:nth-child(1) { background: #e94560; }
-.lang-selector a:nth-child(2) { background: #e67e22; }
-.lang-selector a:nth-child(3) { background: #27ae60; }
-.lang-selector a:nth-child(4) { background: #3498db; }
-.lang-selector a:nth-child(5) { background: #9b59b6; }
-.lang-selector a:nth-child(6) { background: #f7dc6f; color: #333; }
+.lang-selector a:nth-child(1) { color: #e94560; border-color: #e94560; }
+.lang-selector a:nth-child(2) { color: #e67e22; border-color: #e67e22; }
+.lang-selector a:nth-child(3) { color: #27ae60; border-color: #27ae60; }
+.lang-selector a:nth-child(4) { color: #3498db; border-color: #3498db; }
+.lang-selector a:nth-child(5) { color: #9b59b6; border-color: #9b59b6; }
+.lang-selector a:nth-child(6) { color: #d4a017; border-color: #d4a017; }
+
+.lang-selector a:nth-child(1):hover { background: #e94560; }
+.lang-selector a:nth-child(2):hover { background: #e67e22; }
+.lang-selector a:nth-child(3):hover { background: #27ae60; }
+.lang-selector a:nth-child(4):hover { background: #3498db; }
+.lang-selector a:nth-child(5):hover { background: #9b59b6; }
+.lang-selector a:nth-child(6):hover { background: #d4a017; }
 
 // Footer
 
@@ -676,6 +684,11 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.footerText a {
+	color: #e67e22 !important;
+	text-decoration: none;
 }
 
 .footerText {
