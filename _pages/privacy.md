@@ -5,7 +5,7 @@ include_in_header: false
 lang: en
 ---
 
-[Italiano](#italiano) | [Deutsch](#deutsch) | [English](#english) | [Francais](#francais) | [Espanol](#espanol) | [Chinese](#chinese)
+[Italiano](#italiano) | [Deutsch](#deutsch) | [English](#english) | [Français](#francais) | [Español](#espanol) | [中文](#chinese)
 
 ---
 
@@ -14,84 +14,72 @@ lang: en
 
 **Ultimo aggiornamento:** {{ site.data.legal.last_updated }}
 
-### Titolare del trattamento
+**hexit** è un'app iOS sviluppata da {{ site.data.legal.name }}, con sede a Bolzano, Alto Adige, Italia.
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
-E-mail: {{ site.data.legal.email }}
-P.IVA: {{ site.data.legal.partita_iva }}
+### Quali dati raccogliamo?
 
-### Dati raccolti
+**Nessuno.** Questo sito web è una landing page statica. Non utilizziamo cookie, strumenti di tracciamento, servizi di analisi o altre tecnologie che raccolgano dati personali. Nessun dato viene memorizzato, elaborato o condiviso con terze parti tramite questo sito.
 
-**hexit** non raccoglie dati personali. L'app non utilizza analitiche, tracker di terze parti, pubblicita o strumenti di profilazione.
+### L'app hexit
 
-### Dati archiviati localmente
-
-I dati di gioco (punteggi, progressi, preferenze) vengono salvati esclusivamente sul dispositivo dell'utente. Se l'utente ha attivato iCloud, questi dati vengono sincronizzati in modo privato tramite iCloud di Apple. Non abbiamo accesso ai dati sincronizzati tramite iCloud.
-
-### Game Center
-
-Se l'utente sceglie di utilizzare Game Center, i dati delle classifiche e degli obiettivi vengono gestiti direttamente da Apple secondo la sua informativa sulla privacy.
+L'app hexit non raccoglie, memorizza né trasmette alcun dato personale a noi. Tutti i dati dell'app rimangono localmente sul vostro dispositivo.
 
 ### Acquisti in-app
 
-Gli acquisti in-app vengono elaborati da Apple tramite l'App Store. Non riceviamo ne archiviamo informazioni di pagamento.
+hexit offre acquisti in-app. Tutte le transazioni vengono elaborate interamente da Apple tramite l'App Store. Non riceviamo, memorizziamo né abbiamo accesso alle vostre informazioni di pagamento (come dati della carta di credito o indirizzo di fatturazione). Riceviamo da Apple esclusivamente conferme di transazione anonime per sbloccare i contenuti acquistati. Per dettagli su come Apple elabora i vostri dati di pagamento, consultate l'[Informativa sulla Privacy di Apple](https://www.apple.com/legal/privacy/).
 
-### Cookie
+### Apple e l'App Store
 
-Questo sito web non utilizza cookie.
+Quando scaricate o utilizzate hexit, Apple potrebbe raccogliere determinati dati secondo la propria informativa sulla privacy (ad es. analisi dell'App Store, rapporti sugli arresti anomali, cronologia degli acquisti). Questo esula dal nostro controllo. Per maggiori informazioni, consultate l'[Informativa sulla Privacy di Apple](https://www.apple.com/legal/privacy/).
 
-### Diritti dell'utente
+### I vostri diritti ai sensi del GDPR
 
-Ai sensi del GDPR (Regolamento UE 2016/679), l'utente ha diritto di accesso, rettifica, cancellazione e portabilita dei propri dati. Poiche non raccogliamo dati personali, non vi sono dati da fornire, modificare o cancellare. Per qualsiasi domanda, contattare: {{ site.data.legal.email }}
+Ai sensi del Regolamento Generale sulla Protezione dei Dati (UE) 2016/679, avete il diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità dei dati e il diritto di opposizione. Poiché non raccogliamo alcun dato personale, tali diritti non trovano applicazione pratica. Tuttavia, potete contattarci in qualsiasi momento.
 
-### Modifiche
+### Titolare del trattamento
 
-Eventuali modifiche a questa informativa saranno pubblicate su questa pagina.
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
+{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
+Email: {{ site.data.legal.email }}<br>
+Partita IVA: {{ site.data.legal.partita_iva }}
 
 ---
 
 <a name="deutsch"></a>
-## Datenschutzerklaerung
+## Datenschutzerklärung
 
 **Letzte Aktualisierung:** {{ site.data.legal.last_updated }}
 
-### Verantwortlicher
+**hexit** ist eine iOS-App, entwickelt von {{ site.data.legal.name }} mit Sitz in Bozen, Südtirol, Italien.
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
-E-Mail: {{ site.data.legal.email }}
+### Welche Daten erheben wir?
+
+**Keine.** Diese Website ist eine statische Landing Page. Wir verwenden keine Cookies, kein Tracking, keine Analysedienste und keine sonstigen Technologien, die personenbezogene Daten erfassen. Es werden über diese Website keine Daten gespeichert, verarbeitet oder an Dritte weitergegeben.
+
+### Die hexit App
+
+Die hexit App erhebt, speichert und überträgt keine personenbezogenen Daten an uns. Alle App-Daten verbleiben lokal auf Ihrem Gerät.
+
+### In-App-Käufe
+
+hexit bietet In-App-Käufe an. Alle Transaktionen werden vollständig von Apple über den App Store abgewickelt. Wir erhalten, speichern und haben keinen Zugang zu Ihren Zahlungsinformationen (wie Kreditkartendaten oder Rechnungsadresse). Wir erhalten lediglich anonyme Transaktionsbestätigungen von Apple, um die gekauften Inhalte freizuschalten. Weitere Informationen zur Verarbeitung Ihrer Zahlungsdaten durch Apple finden Sie in der [Datenschutzrichtlinie von Apple](https://www.apple.com/legal/privacy/).
+
+### Apple und der App Store
+
+Wenn Sie hexit herunterladen oder nutzen, kann Apple gemäß seiner eigenen Datenschutzrichtlinie bestimmte Daten erheben (z. B. App-Store-Analysen, Absturzberichte, Kaufhistorie). Dies liegt außerhalb unserer Kontrolle. Weitere Informationen finden Sie in der [Datenschutzrichtlinie von Apple](https://www.apple.com/legal/privacy/).
+
+### Ihre Rechte gemäß DSGVO
+
+Gemäß der Datenschutz-Grundverordnung (EU) 2016/679 haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie das Recht auf Widerspruch. Da wir keine personenbezogenen Daten erheben, finden diese Rechte praktisch keine Anwendung. Sie können uns jedoch jederzeit kontaktieren.
+
+### Kontakt
+
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
+{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
+E-Mail: {{ site.data.legal.email }}<br>
 USt-IdNr.: {{ site.data.legal.partita_iva }}
-
-### Erhobene Daten
-
-**hexit** erhebt keine personenbezogenen Daten. Die App verwendet keine Analysetools, keine Tracker von Drittanbietern, keine Werbung und keine Profiling-Instrumente.
-
-### Lokal gespeicherte Daten
-
-Spieldaten (Punktestaende, Fortschritt, Einstellungen) werden ausschliesslich auf dem Geraet des Nutzers gespeichert. Falls der Nutzer iCloud aktiviert hat, werden diese Daten privat ueber Apples iCloud synchronisiert. Wir haben keinen Zugriff auf ueber iCloud synchronisierte Daten.
-
-### Game Center
-
-Wenn der Nutzer Game Center verwendet, werden Bestenlisten- und Erfolgsdaten direkt von Apple gemaess deren Datenschutzrichtlinie verwaltet.
-
-### In-App-Kaeufe
-
-In-App-Kaeufe werden von Apple ueber den App Store abgewickelt. Wir erhalten und speichern keine Zahlungsinformationen.
-
-### Cookies
-
-Diese Website verwendet keine Cookies.
-
-### Rechte der Nutzer
-
-Gemaess der DSGVO (Verordnung EU 2016/679) haben Nutzer das Recht auf Auskunft, Berichtigung, Loeschung und Datenportabilitaet. Da wir keine personenbezogenen Daten erheben, liegen keine Daten vor, die bereitgestellt, geaendert oder geloescht werden koennten. Bei Fragen wenden Sie sich bitte an: {{ site.data.legal.email }}
-
-### Aenderungen
-
-Aenderungen an dieser Datenschutzerklaerung werden auf dieser Seite veroeffentlicht.
 
 ---
 
@@ -100,127 +88,109 @@ Aenderungen an dieser Datenschutzerklaerung werden auf dieser Seite veroeffentli
 
 **Last updated:** {{ site.data.legal.last_updated }}
 
-### Data controller
+**hexit** is an iOS app developed by {{ site.data.legal.name }}, based in Bozen (Bolzano), South Tyrol, Italy.
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
-Email: {{ site.data.legal.email }}
+### What data do we collect?
+
+**None.** This website is a static landing page. We do not use cookies, tracking tools, analytics services, or any other technology that collects personal data. No data is stored, processed, or shared with third parties through this website.
+
+### The hexit App
+
+The hexit app does not collect, store, or transmit any personal data to us. All app data remains locally on your device.
+
+### In-App Purchases
+
+hexit offers in-app purchases. All transactions are processed entirely by Apple through the App Store. We do not receive, store, or have access to your payment information (such as credit card details or billing address). We only receive anonymous transaction confirmations from Apple to unlock the purchased content. For details on how Apple processes your payment data, please refer to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+
+### Apple and the App Store
+
+When you download or use hexit, Apple may collect certain data according to their own privacy policy (e.g., App Store analytics, crash reports, purchase history). This is outside of our control. For details, please refer to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+
+### Your rights under GDPR
+
+Under the General Data Protection Regulation (EU) 2016/679, you have the right to access, rectify, delete, restrict, and port your personal data, as well as the right to object to processing. Since we do not collect any personal data, these rights do not practically apply. However, you are welcome to contact us at any time.
+
+### Contact
+
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
+{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
+Email: {{ site.data.legal.email }}<br>
 VAT: {{ site.data.legal.partita_iva }}
-
-### Data collected
-
-**hexit** does not collect personal data. The app does not use analytics, third-party trackers, advertising, or profiling tools.
-
-### Data stored locally
-
-Game data (scores, progress, preferences) is stored exclusively on the user's device. If the user has enabled iCloud, this data syncs privately via Apple's iCloud. We have no access to data synced through iCloud.
-
-### Game Center
-
-If the user chooses to use Game Center, leaderboard and achievement data is managed directly by Apple according to their privacy policy.
-
-### In-app purchases
-
-In-app purchases are processed by Apple through the App Store. We do not receive or store payment information.
-
-### Cookies
-
-This website does not use cookies.
-
-### User rights
-
-Under the GDPR (EU Regulation 2016/679), users have the right to access, rectify, delete, and port their data. Since we do not collect personal data, there is no data to provide, modify, or delete. For any questions, contact: {{ site.data.legal.email }}
-
-### Changes
-
-Any changes to this policy will be published on this page.
 
 ---
 
 <a name="francais"></a>
-## Politique de Confidentialite
+## Politique de Confidentialité
 
-**Derniere mise a jour :** {{ site.data.legal.last_updated }}
+**Dernière mise à jour :** {{ site.data.legal.last_updated }}
 
-### Responsable du traitement
+**hexit** est une application iOS développée par {{ site.data.legal.name }}, basée à Bozen (Bolzano), Tyrol du Sud, Italie.
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
-E-mail : {{ site.data.legal.email }}
+### Quelles données collectons-nous ?
+
+**Aucune.** Ce site web est une page d'atterrissage statique. Nous n'utilisons ni cookies, ni outils de suivi, ni services d'analyse, ni aucune autre technologie collectant des données personnelles. Aucune donnée n'est stockée, traitée ou partagée avec des tiers via ce site.
+
+### L'application hexit
+
+L'application hexit ne collecte, ne stocke et ne transmet aucune donnée personnelle à notre attention. Toutes les données de l'application restent localement sur votre appareil.
+
+### Achats intégrés
+
+hexit propose des achats intégrés. Toutes les transactions sont traitées entièrement par Apple via l'App Store. Nous ne recevons, ne stockons et n'avons pas accès à vos informations de paiement (telles que les données de carte bancaire ou l'adresse de facturation). Nous recevons uniquement des confirmations de transaction anonymes d'Apple pour débloquer le contenu acheté. Pour en savoir plus sur le traitement de vos données de paiement par Apple, veuillez consulter la [Politique de Confidentialité d'Apple](https://www.apple.com/legal/privacy/).
+
+### Apple et l'App Store
+
+Lorsque vous téléchargez ou utilisez hexit, Apple peut collecter certaines données conformément à sa propre politique de confidentialité (par ex. analyses de l'App Store, rapports de plantage, historique d'achat). Cela échappe à notre contrôle. Pour plus de détails, veuillez consulter la [Politique de Confidentialité d'Apple](https://www.apple.com/legal/privacy/).
+
+### Vos droits en vertu du RGPD
+
+En vertu du Règlement Général sur la Protection des Données (UE) 2016/679, vous disposez du droit d'accès, de rectification, d'effacement, de limitation du traitement, de portabilité des données ainsi que du droit d'opposition. Puisque nous ne collectons aucune donnée personnelle, ces droits ne s'appliquent pas en pratique. Vous pouvez néanmoins nous contacter à tout moment.
+
+### Contact
+
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
+{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
+E-mail : {{ site.data.legal.email }}<br>
 TVA : {{ site.data.legal.partita_iva }}
-
-### Donnees collectees
-
-**hexit** ne collecte aucune donnee personnelle. L'application n'utilise ni outils d'analyse, ni traceurs tiers, ni publicite, ni outils de profilage.
-
-### Donnees stockees localement
-
-Les donnees de jeu (scores, progression, preferences) sont stockees exclusivement sur l'appareil de l'utilisateur. Si l'utilisateur a active iCloud, ces donnees sont synchronisees de maniere privee via iCloud d'Apple. Nous n'avons pas acces aux donnees synchronisees via iCloud.
-
-### Game Center
-
-Si l'utilisateur choisit d'utiliser Game Center, les donnees de classement et de succes sont gerees directement par Apple conformement a sa politique de confidentialite.
-
-### Achats integres
-
-Les achats integres sont traites par Apple via l'App Store. Nous ne recevons ni ne stockons d'informations de paiement.
-
-### Cookies
-
-Ce site web n'utilise pas de cookies.
-
-### Droits des utilisateurs
-
-Conformement au RGPD (Reglement UE 2016/679), les utilisateurs ont le droit d'acceder, de rectifier, de supprimer et de porter leurs donnees. Comme nous ne collectons aucune donnee personnelle, il n'y a aucune donnee a fournir, modifier ou supprimer. Pour toute question, contactez : {{ site.data.legal.email }}
-
-### Modifications
-
-Toute modification de cette politique sera publiee sur cette page.
 
 ---
 
 <a name="espanol"></a>
-## Politica de Privacidad
+## Política de Privacidad
 
-**Ultima actualizacion:** {{ site.data.legal.last_updated }}
+**Última actualización:** {{ site.data.legal.last_updated }}
 
-### Responsable del tratamiento
+**hexit** es una aplicación iOS desarrollada por {{ site.data.legal.name }}, con sede en Bozen (Bolzano), Tirol del Sur, Italia.
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
-Correo electronico: {{ site.data.legal.email }}
-IVA: {{ site.data.legal.partita_iva }}
+### ¿Qué datos recogemos?
 
-### Datos recogidos
+**Ninguno.** Este sitio web es una página de aterrizaje estática. No utilizamos cookies, herramientas de seguimiento, servicios de análisis ni ninguna otra tecnología que recoja datos personales. Ningún dato se almacena, procesa o comparte con terceros a través de este sitio.
 
-**hexit** no recoge datos personales. La aplicacion no utiliza herramientas de analisis, rastreadores de terceros, publicidad ni herramientas de perfilado.
+### La aplicación hexit
 
-### Datos almacenados localmente
-
-Los datos de juego (puntuaciones, progreso, preferencias) se almacenan exclusivamente en el dispositivo del usuario. Si el usuario tiene iCloud activado, estos datos se sincronizan de forma privada a traves de iCloud de Apple. No tenemos acceso a los datos sincronizados a traves de iCloud.
-
-### Game Center
-
-Si el usuario elige utilizar Game Center, los datos de clasificaciones y logros son gestionados directamente por Apple segun su politica de privacidad.
+La aplicación hexit no recoge, almacena ni transmite ningún dato personal hacia nosotros. Todos los datos de la aplicación permanecen localmente en su dispositivo.
 
 ### Compras dentro de la app
 
-Las compras dentro de la app son procesadas por Apple a traves del App Store. No recibimos ni almacenamos informacion de pago.
+hexit ofrece compras dentro de la app. Todas las transacciones son procesadas íntegramente por Apple a través del App Store. No recibimos, almacenamos ni tenemos acceso a su información de pago (como datos de tarjeta de crédito o dirección de facturación). Solo recibimos confirmaciones de transacción anónimas de Apple para desbloquear el contenido adquirido. Para más información sobre cómo Apple procesa sus datos de pago, consulte la [Política de Privacidad de Apple](https://www.apple.com/legal/privacy/).
 
-### Cookies
+### Apple y el App Store
 
-Este sitio web no utiliza cookies.
+Al descargar o utilizar hexit, Apple puede recoger ciertos datos conforme a su propia política de privacidad (por ejemplo, análisis del App Store, informes de fallos, historial de compras). Esto está fuera de nuestro control. Para más detalles, consulte la [Política de Privacidad de Apple](https://www.apple.com/legal/privacy/).
 
-### Derechos del usuario
+### Sus derechos según el RGPD
 
-Conforme al RGPD (Reglamento UE 2016/679), los usuarios tienen derecho a acceder, rectificar, eliminar y portar sus datos. Como no recogemos datos personales, no hay datos que proporcionar, modificar o eliminar. Para cualquier consulta, contactar: {{ site.data.legal.email }}
+Según el Reglamento General de Protección de Datos (UE) 2016/679, usted tiene derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad de datos y derecho de oposición. Dado que no recogemos ningún dato personal, estos derechos no se aplican en la práctica. No obstante, puede contactarnos en cualquier momento.
 
-### Cambios
+### Contacto
 
-Cualquier cambio en esta politica se publicara en esta pagina.
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
+{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
+Correo electrónico: {{ site.data.legal.email }}<br>
+IVA: {{ site.data.legal.partita_iva }}
 
 ---
 
@@ -229,38 +199,32 @@ Cualquier cambio en esta politica se publicara en esta pagina.
 
 **最后更新：** {{ site.data.legal.last_updated }}
 
-### 数据控制者
+**hexit** 是一款 iOS 应用，由 {{ site.data.legal.name }} 开发，总部位于意大利南蒂罗尔博尔扎诺。
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
-{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
-电子邮件：{{ site.data.legal.email }}
-增值税号：{{ site.data.legal.partita_iva }}
+### 我们收集哪些数据？
 
-### 收集的数据
+**不收集任何数据。** 本网站是静态落地页。我们不使用 Cookie、跟踪工具、分析服务或任何其他收集个人数据的技术。本网站不存储、处理或与第三方共享任何数据。
 
-**hexit** 不收集个人数据。该应用不使用分析工具、第三方跟踪器、广告或画像工具。
+### hexit 应用
 
-### 本地存储的数据
-
-游戏数据（分数、进度、偏好设置）仅存储在用户的设备上。如果用户启用了 iCloud，这些数据会通过 Apple 的 iCloud 私密同步。我们无法访问通过 iCloud 同步的数据。
-
-### Game Center
-
-如果用户选择使用 Game Center，排行榜和成就数据由 Apple 根据其隐私政策直接管理。
+hexit 应用不向我们收集、存储或传输任何个人数据。所有应用数据均保留在您的设备本地。
 
 ### 应用内购买
 
-应用内购买通过 Apple 的 App Store 处理。我们不会接收或存储支付信息。
+hexit 提供应用内购买。所有交易完全由 Apple 通过 App Store 处理。我们不接收、存储或访问您的付款信息（如信用卡详细信息或账单地址）。我们仅从 Apple 接收匿名交易确认以解锁已购买的内容。有关 Apple 如何处理您的付款数据的详细信息，请参阅 [Apple 隐私政策](https://www.apple.com/legal/privacy/)。
 
-### Cookie
+### Apple 和 App Store
 
-本网站不使用 Cookie。
+当您下载或使用 hexit 时，Apple 可能会根据其自身隐私政策收集某些数据（例如 App Store 分析、崩溃报告、购买历史）。这超出了我们的控制范围。有关详情，请参阅 [Apple 隐私政策](https://www.apple.com/legal/privacy/)。
 
-### 用户权利
+### 您在 GDPR 下的权利
 
-根据 GDPR（欧盟法规 2016/679），用户有权访问、更正、删除和转移其数据。由于我们不收集个人数据，因此没有数据可供提供、修改或删除。如有任何问题，请联系：{{ site.data.legal.email }}
+根据《通用数据保护条例》（欧盟）2016/679，您有权访问、更正、删除、限制处理和转移您的个人数据，以及反对处理的权利。由于我们不收集任何个人数据，这些权利在实际中不适用。不过，欢迎您随时联系我们。
 
-### 变更
+### 联系方式
 
-本政策的任何变更将在此页面上发布。
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
+{{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}<br>
+电子邮件：{{ site.data.legal.email }}<br>
+增值税号：{{ site.data.legal.partita_iva }}

@@ -5,7 +5,7 @@ include_in_header: false
 lang: en
 ---
 
-[Italiano](#italiano) | [Deutsch](#deutsch) | [English](#english) | [Francais](#francais) | [Espanol](#espanol) | [Chinese](#chinese)
+[Italiano](#italiano) | [Deutsch](#deutsch) | [English](#english) | [Français](#francais) | [Español](#espanol) | [中文](#chinese)
 
 ---
 
@@ -16,8 +16,8 @@ Ai sensi dell'art. 7 del D.Lgs. 70/2003.
 
 ### Titolare
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
 {{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
 
 ### Contatto
@@ -30,23 +30,23 @@ E-mail: {{ site.data.legal.email }}
 
 ### Contenuti
 
-I contenuti di questo sito web e dell'app **hexit** sono forniti a scopo informativo. L'autore non si assume alcuna responsabilita per l'accuratezza, completezza o attualita delle informazioni fornite.
+I contenuti di questo sito web e dell'app **hexit** sono forniti a scopo informativo. L'autore non si assume alcuna responsabilità per l'accuratezza, completezza o attualità delle informazioni fornite.
 
 ### Link esterni
 
-Questo sito puo contenere link a siti web esterni. Non abbiamo alcun controllo sui contenuti di tali siti e non ci assumiamo alcuna responsabilita per essi.
+Questo sito può contenere link a siti web esterni. Non abbiamo alcun controllo sui contenuti di tali siti e non ci assumiamo alcuna responsabilità per essi.
 
 ---
 
 <a name="deutsch"></a>
 ## Impressum
 
-Angaben gemaess D.Lgs. 70/2003 (Italien).
+Angaben gemäß D.Lgs. 70/2003 (Italien).
 
 ### Verantwortlich
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
 {{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
 
 ### Kontakt
@@ -59,11 +59,11 @@ E-Mail: {{ site.data.legal.email }}
 
 ### Inhalte
 
-Die Inhalte dieser Website und der App **hexit** dienen ausschliesslich der Information. Der Autor uebernimmt keine Gewaehr fuer die Richtigkeit, Vollstaendigkeit oder Aktualitaet der bereitgestellten Informationen.
+Die Inhalte dieser Website und der App **hexit** dienen ausschließlich der Information. Der Autor übernimmt keine Gewähr für die Richtigkeit, Vollständigkeit oder Aktualität der bereitgestellten Informationen.
 
 ### Externe Links
 
-Diese Website kann Links zu externen Websites enthalten. Wir haben keinen Einfluss auf deren Inhalte und uebernehmen keine Haftung.
+Diese Website kann Links zu externen Websites enthalten. Wir haben keinen Einfluss auf deren Inhalte und übernehmen keine Haftung.
 
 ---
 
@@ -74,8 +74,8 @@ In accordance with Italian Legislative Decree 70/2003, Art. 7.
 
 ### Responsible party
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
 {{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
 
 ### Contact
@@ -97,31 +97,31 @@ This website may contain links to external websites. We have no control over the
 ---
 
 <a name="francais"></a>
-## Mentions Legales
+## Mentions Légales
 
-Conformement au decret legislatif italien 70/2003, art. 7.
+Conformément au décret législatif italien 70/2003, art. 7.
 
 ### Responsable
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
 {{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
 
 ### Contact
 
 E-mail : {{ site.data.legal.email }}
 
-### Numero de TVA
+### Numéro de TVA
 
 {{ site.data.legal.partita_iva }}
 
 ### Contenu
 
-Le contenu de ce site web et de l'application **hexit** est fourni a titre informatif. L'auteur n'assume aucune responsabilite quant a l'exactitude, l'exhaustivite ou l'actualite des informations fournies.
+Le contenu de ce site web et de l'application **hexit** est fourni à titre informatif. L'auteur n'assume aucune responsabilité quant à l'exactitude, l'exhaustivité ou l'actualité des informations fournies.
 
 ### Liens externes
 
-Ce site peut contenir des liens vers des sites web externes. Nous n'avons aucun controle sur leur contenu et n'assumons aucune responsabilite a leur egard.
+Ce site peut contenir des liens vers des sites web externes. Nous n'avons aucun contrôle sur leur contenu et n'assumons aucune responsabilité à leur égard.
 
 ---
 
@@ -132,21 +132,21 @@ De conformidad con el Decreto Legislativo italiano 70/2003, art. 7.
 
 ### Responsable
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
 {{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
 
 ### Contacto
 
-Correo electronico: {{ site.data.legal.email }}
+Correo electrónico: {{ site.data.legal.email }}
 
-### Numero de IVA
+### Número de IVA
 
 {{ site.data.legal.partita_iva }}
 
 ### Contenido
 
-El contenido de este sitio web y de la aplicacion **hexit** se proporciona con fines informativos. El autor no asume ninguna responsabilidad por la exactitud, integridad o actualidad de la informacion proporcionada.
+El contenido de este sitio web y de la aplicación **hexit** se proporciona con fines informativos. El autor no asume ninguna responsabilidad por la exactitud, integridad o actualidad de la información proporcionada.
 
 ### Enlaces externos
 
@@ -161,8 +161,8 @@ Este sitio puede contener enlaces a sitios web externos. No tenemos control sobr
 
 ### 责任方
 
-{{ site.data.legal.name }}
-{{ site.data.legal.street }}
+{{ site.data.legal.name }}<br>
+{{ site.data.legal.street }}<br>
 {{ site.data.legal.postal_code }} {{ site.data.legal.city }}, {{ site.data.legal.country }}
 
 ### 联系方式
