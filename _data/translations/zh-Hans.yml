@@ -14,7 +14,7 @@ features:
   - title: "看得见的成长"
     description: "准确率、反应时间、连胜记录全程追踪。你的色彩直觉，每一局都在变强。"
     icon: "chart-line"
-  - title: "Game Center"
+  - title: "游戏中心"
     description: "每周排行榜，与全球玩家一较高下。成就系统记录你的每个高光时刻。"
     icon: "trophy"
   - title: "隐私优先"
@@ -27,3 +27,4 @@ footer:
   made_by: "制作"
   privacy: "隐私政策"
   legal: "法律声明"
+  open_source: "开源代码"

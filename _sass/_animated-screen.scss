@@ -40,7 +40,7 @@
 // Dot indicators
 .sc-dots {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   left: 0;
   right: 0;
   display: flex;
@@ -73,7 +73,7 @@
     margin-top: 22px;
   }
 
-  .sc-dots { bottom: 18px; }
+  .sc-dots { bottom: 46px; }
   .sc-dot { width: 7px; height: 7px; }
 }
 
@@ -86,7 +86,7 @@
     margin-top: 17px;
   }
 
-  .sc-dots { bottom: 14px; gap: 6px; }
+  .sc-dots { bottom: 34px; gap: 6px; }
   .sc-dot { width: 6px; height: 6px; }
 }
 
