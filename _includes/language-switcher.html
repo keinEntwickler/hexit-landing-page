@@ -11,9 +11,9 @@
     {% for lang in site.languages %}
       {% if lang.code != page.lang %}
         {% if lang.code == site.default_lang %}
-          <a href="{{ site.baseurl }}/" target="_self">{{ lang.flag }} {{ lang.name }}</a>
+          <a href="{{ site.baseurl }}/">{{ lang.flag }} {{ lang.name }}</a>
         {% else %}
-          <a href="{{ site.baseurl }}/{{ lang.code }}/" target="_self">{{ lang.flag }} {{ lang.name }}</a>
+          <a href="{{ site.baseurl }}/{{ lang.code }}/">{{ lang.flag }} {{ lang.name }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
