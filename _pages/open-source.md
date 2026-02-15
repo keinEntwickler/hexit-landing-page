@@ -16,16 +16,29 @@ This app would not exist without open source. A lot of hard problems are already
 
 <br>
 
-## Swift Frameworks
+## Swift Stack
 
-| Library | By | What it does |
-| :--- | :--- | :--- |
-| [The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture) | [Point-Free](https://www.pointfree.co) | State management, side effects, and testable architecture for SwiftUI apps |
-| [swift-sharing](https://github.com/pointfreeco/swift-sharing) | [Point-Free](https://www.pointfree.co) | Share and persist values across your application with @Sharing |
-| [sqlite-data](https://github.com/pointfreeco/sqlite-data) | [Point-Free](https://www.pointfree.co) | SQLite persistence with @FetchAll, @FetchOne, and iCloud sync via SyncEngine |
-| [swift-dependencies](https://github.com/pointfreeco/swift-dependencies) | [Point-Free](https://www.pointfree.co) | Dependency injection for testability and previews |
-| [xctest-dynamic-overlay](https://github.com/pointfreeco/xctest-dynamic-overlay) | [Point-Free](https://www.pointfree.co) | Test helpers that work without importing XCTest |
-| [SwiftLint](https://github.com/realm/SwiftLint) | [Realm](https://realm.io) | Swift style and convention enforcement |
+### [Point-Free](https://www.pointfree.co)
+
+**[The Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture)**  
+State management, side effects, and feature composition in a way that stays testable as the app grows.
+
+**[swift-dependencies](https://github.com/pointfreeco/swift-dependencies)**  
+Dependency injection with first-class support for previews and tests.
+
+**[swift-sharing](https://github.com/pointfreeco/swift-sharing)**  
+A simple way to persist and share values across the app.
+
+**[sqlite-data](https://github.com/pointfreeco/sqlite-data)**  
+SQLite-based persistence, query observation, and iCloud sync support.
+
+**[xctest-dynamic-overlay](https://github.com/pointfreeco/xctest-dynamic-overlay)**  
+Useful testing helpers that can run outside XCTest contexts.
+
+### Others
+
+**[SwiftLint](https://github.com/realm/SwiftLint)** by [Realm](https://realm.io)  
+Keeps style and conventions consistent across the codebase.
 
 <br>
 
