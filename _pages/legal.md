@@ -9,8 +9,7 @@ lang: en
 
 ---
 
-<a name="italiano"></a>
-## Note Legali
+## Note Legali {#italiano}
 
 Ai sensi dell'art. 7 del D.Lgs. 70/2003.
 
@@ -38,8 +37,7 @@ Questo sito può contenere link a siti web esterni. Non abbiamo alcun controllo 
 
 ---
 
-<a name="deutsch"></a>
-## Impressum
+## Impressum {#deutsch}
 
 Angaben gemäß D.Lgs. 70/2003 (Italien).
 
@@ -67,8 +65,7 @@ Diese Website kann Links zu externen Websites enthalten. Wir haben keinen Einflu
 
 ---
 
-<a name="english"></a>
-## Legal Notice
+## Legal Notice {#english}
 
 In accordance with Italian Legislative Decree 70/2003, Art. 7.
 
@@ -96,8 +93,7 @@ This website may contain links to external websites. We have no control over the
 
 ---
 
-<a name="francais"></a>
-## Mentions Légales
+## Mentions Légales {#francais}
 
 Conformément au décret législatif italien 70/2003, art. 7.
 
@@ -125,8 +121,7 @@ Ce site peut contenir des liens vers des sites web externes. Nous n'avons aucun 
 
 ---
 
-<a name="espanol"></a>
-## Aviso Legal
+## Aviso Legal {#espanol}
 
 De conformidad con el Decreto Legislativo italiano 70/2003, art. 7.
 
@@ -154,8 +149,7 @@ Este sitio puede contener enlaces a sitios web externos. No tenemos control sobr
 
 ---
 
-<a name="chinese"></a>
-## 法律声明
+## 法律声明 {#chinese}
 
 根据意大利第70/2003号法令第7条。
 

@@ -9,8 +9,7 @@ lang: en
 
 ---
 
-<a name="italiano"></a>
-## Informativa sulla Privacy
+## Informativa sulla Privacy {#italiano}
 
 **Ultimo aggiornamento:** {{ site.data.legal.last_updated }}
 
@@ -46,8 +45,7 @@ Partita IVA: {{ site.data.legal.partita_iva }}
 
 ---
 
-<a name="deutsch"></a>
-## Datenschutzerklärung
+## Datenschutzerklärung {#deutsch}
 
 **Letzte Aktualisierung:** {{ site.data.legal.last_updated }}
 
@@ -83,8 +81,7 @@ USt-IdNr.: {{ site.data.legal.partita_iva }}
 
 ---
 
-<a name="english"></a>
-## Privacy Policy
+## Privacy Policy {#english}
 
 **Last updated:** {{ site.data.legal.last_updated }}
 
@@ -120,8 +117,7 @@ VAT: {{ site.data.legal.partita_iva }}
 
 ---
 
-<a name="francais"></a>
-## Politique de Confidentialité
+## Politique de Confidentialité {#francais}
 
 **Dernière mise à jour :** {{ site.data.legal.last_updated }}
 
@@ -157,8 +153,7 @@ TVA : {{ site.data.legal.partita_iva }}
 
 ---
 
-<a name="espanol"></a>
-## Política de Privacidad
+## Política de Privacidad {#espanol}
 
 **Última actualización:** {{ site.data.legal.last_updated }}
 
@@ -194,8 +189,7 @@ IVA: {{ site.data.legal.partita_iva }}
 
 ---
 
-<a name="chinese"></a>
-## 隐私政策
+## 隐私政策 {#chinese}
 
 **最后更新：** {{ site.data.legal.last_updated }}
 

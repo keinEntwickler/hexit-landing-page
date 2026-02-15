@@ -16,8 +16,18 @@ body {
 	background-color: $body-color;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .subPageBody {
-	background-color: $body-color;
+	background:
+		radial-gradient(ellipse at 15% 60%, rgba(100, 160, 140, 0.12) 0%, transparent 50%),
+		radial-gradient(ellipse at 75% 20%, rgba(160, 202, 201, 0.10) 0%, transparent 45%),
+		radial-gradient(ellipse at 50% 90%, rgba(130, 170, 120, 0.08) 0%, transparent 50%),
+		radial-gradient(ellipse at 90% 70%, rgba(80, 140, 160, 0.10) 0%, transparent 45%),
+		radial-gradient(ellipse at 30% 15%, rgba(160, 180, 140, 0.06) 0%, transparent 40%),
+		#0c0c0c;
 }
 
 .markdown-body {
