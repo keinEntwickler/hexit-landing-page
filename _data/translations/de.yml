@@ -9,7 +9,7 @@ features:
     description: "Jede Runde dauert nur Sekunden: eine Farbe, zwei Optionen, sofortiges Ergebnis. Auch falsche Antworten helfen dank klarer RGB-Aufschlüsselung."
     icon: "bolt"
   - title: "Sechs Spielmodi"
-    description: "Core, Invertiert, RGB-Slider, Übung, Hexagonal und Blitz. Von entspanntem Lernen bis zu schnellen Highscore-Jagden."
+    description: "Core, Invertiert und Übung stehen bereit. RGB-Slider, Hexagonal und Blitz — bald verfügbar."
     icon: "th"
   - title: "Fortschritt verfolgen"
     description: "Verfolge deine Genauigkeit, Antwortzeit und Streaks. Sieh zu, wie dein Farbgefühl wächst."

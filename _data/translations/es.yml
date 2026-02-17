@@ -9,7 +9,7 @@ features:
     description: "Cada ronda dura segundos: un color, dos opciones y respuesta inmediata. Si fallas, también aprendes gracias al desglose RGB."
     icon: "bolt"
   - title: "Seis modos de juego"
-    description: "Core, Invertido, Deslizador RGB, Práctica, Hexagonal y Blitz. Del aprendizaje relajado a los desafíos contrarreloj."
+    description: "Core, Invertido y Práctica ya están listos. Deslizador RGB, Hexagonal y Blitz — próximamente."
     icon: "th"
   - title: "Progreso real"
     description: "Sigue tu precisión, tiempo de respuesta y rachas. Observa cómo crece tu intuición del color."

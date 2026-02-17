@@ -9,7 +9,7 @@ features:
     description: "Chaque manche dure quelques secondes : une couleur, deux choix, retour immédiat. Même une erreur vous apprend quelque chose grâce au détail RGB."
     icon: "bolt"
   - title: "Six modes de jeu"
-    description: "Core, Inversé, Curseur RGB, Entraînement, Hexagonal et Blitz. De l'apprentissage détendu aux défis chronométrés."
+    description: "Core, Inversé et Entraînement sont prêts à jouer. Curseur RGB, Hexagonal et Blitz — bientôt disponibles."
     icon: "th"
   - title: "Des progrès mesurables"
     description: "Suivez votre précision, temps de réponse et séries. Voyez votre intuition des couleurs s'affiner."

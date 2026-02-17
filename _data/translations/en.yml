@@ -9,7 +9,7 @@ features:
     description: "Each round takes seconds: one color, two choices, instant result. Even wrong answers help, thanks to clear RGB breakdowns."
     icon: "bolt"
   - title: "Six Game Modes"
-    description: "Core, Reverse, RGB Slider, Practice, Hexagonal, and Blitz. From relaxed learning to competitive high-score runs."
+    description: "Core, Reverse, and Practice are ready to play. RGB Slider, Hexagonal, and Blitz — coming soon."
     icon: "th"
   - title: "Track Your Progress"
     description: "Follow your accuracy, response time, and streaks. See how your color intuition grows over time."

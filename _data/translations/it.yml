@@ -9,7 +9,7 @@ features:
     description: "Ogni partita dura pochi secondi: un colore, due opzioni, risposta immediata. Anche quando sbagli impari, grazie al dettaglio RGB."
     icon: "bolt"
   - title: "Sei modalità"
-    description: "Core, Invertita, Cursore RGB, Pratica, Esagonale e Blitz. Dall'apprendimento rilassato alle sfide a tempo."
+    description: "Core, Invertita e Pratica sono già disponibili. Cursore RGB, Esagonale e Blitz — in arrivo."
     icon: "th"
   - title: "Progresso reale"
     description: "Segui precisione, tempo di risposta e serie. Guarda crescere il tuo intuito per i colori."

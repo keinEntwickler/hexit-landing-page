@@ -9,7 +9,7 @@ features:
     description: "几秒一局。一个颜色，两个选择，立刻揭晓答案。答错也没关系，RGB 分解帮你学习进步。"
     icon: "bolt"
   - title: "六种模式"
-    description: "核心 / 反转 / RGB 滑块 / 练习 / 六边形 / 闪电。从轻松入门，到极限手速，总有一种适合你。"
+    description: "核心、反转和练习模式已上线。RGB 滑块、六边形、闪电 — 即将推出。"
     icon: "th"
   - title: "看得见的成长"
     description: "准确率、反应时间、连胜记录全程追踪。你的色彩直觉，每一局都在变强。"
