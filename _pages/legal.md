@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Legal Notice
+description: "Legal notice and publisher information for the hexit website and iOS app."
 include_in_header: false
 lang: en
 last_updated: 2026-02-15
