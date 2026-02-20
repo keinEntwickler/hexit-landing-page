@@ -1,6 +1,6 @@
 lang: de
 lang_name: Deutsch
-tagline: "Trainiere dein Farbgefühl in wenigen Minuten am Tag."
+tagline: "Trainiere dein Gespür für Farben in wenigen Minuten am Tag."
 description: "Du siehst eine Farbe, wählst den passenden Hex-Code und wirst mit jeder Runde besser."
 keywords: "farbe,spiel,raten,hexcode,rgb,puzzle,streak,quiz,gehirn,design,herausforderung"
 app_store_button: "Im App Store laden"
@@ -12,7 +12,7 @@ features:
     description: "Core, Invertiert und Übung stehen bereit. RGB-Slider, Hexagonal und Blitz — bald verfügbar."
     icon: "th"
   - title: "Fortschritt verfolgen"
-    description: "Verfolge deine Genauigkeit, Antwortzeit und Streaks. Sieh zu, wie dein Farbgefühl wächst."
+    description: "Verfolge deine Genauigkeit, Antwortzeit und Streaks. Sieh zu, wie dein Gespür für Farben wächst."
     icon: "chart-line"
   - title: "Game Center"
     description: "Wöchentliche Bestenlisten für Duelle mit Spielern weltweit. Erfolge dokumentieren deine persönlichen Meilensteine."
