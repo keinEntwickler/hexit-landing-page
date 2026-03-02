@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Open Source
-description: "Open source acknowledgements and third-party libraries used by the hexit iOS app and landing page."
+title: Credits
+description: "Third-party libraries and acknowledgements for the hexit iOS app and landing page."
 include_in_header: false
 lang: en
 last_updated: 2026-02-15
@@ -9,11 +9,11 @@ last_updated: 2026-02-15
 
 *Last updated: {{ page.last_updated }}*
 
-# Open Source
+# Credits
 
 **hexit** is a hex color guessing game for iOS. You see a color, pick the matching hex code, and improve your color intuition one round at a time.
 
-This app would not exist without open source. A lot of hard problems are already solved by people who share great tools and ideas, and this page is our thank-you note to them.
+This app is built on open-source libraries. A lot of hard problems are already solved by people who share great tools and ideas, and this page is our thank-you note to them.
 
 <br>
 

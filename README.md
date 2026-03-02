@@ -17,7 +17,7 @@ Live at: [gethex.it](https://gethex.it)
 
 - **Landing pages** — one per language, content from `_data/translations/`
 - **Legal pages** — single multilingual documents (Privacy Policy, Legal Notice)
-- **Open Source** — credits for Swift frameworks used in hexit
+- **Credits** — acknowledgements for Swift frameworks used in hexit
 
 ## Local Development
 
