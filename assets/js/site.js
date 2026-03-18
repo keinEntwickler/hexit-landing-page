@@ -51,3 +51,15 @@
     init();
   }
 })();
+
+
+(function initQR() {
+  const qr = document.getElementsByClassName('sticky-qr')[0];
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      qr.classList.add('visible');
+    } else {
+      qr.classList.remove('visible');
+    }
+  });
+})()

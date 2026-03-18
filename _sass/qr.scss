@@ -4,10 +4,11 @@
   width: 140px;
   bottom: 1em;
   right: 1em;
-  opacity: 0.9;
+  opacity: 0;
   background-color: #3498db;
   box-shadow: 0 0 10px #0c0c0c;
   border-radius: 10px;
+  transition: opacity 0.3s ease;
 
   svg {
     padding: 10px 10px 0;
@@ -38,5 +39,9 @@
 @media (pointer: fine) {
   .sticky-qr {
     display: block;
+  }
+
+  .sticky-qr.visible {
+    opacity: 0.9;
   }
 }
