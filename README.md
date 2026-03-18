@@ -21,6 +21,11 @@ Live at: [gethex.it](https://gethex.it)
 
 ## Local Development
 
+### Requirements
+- Ruby >= 2.6, < 4.0 (e.g. 3.4.9)
+
+### Install dependencies
+
 ```bash
 bundle install
 bundle exec jekyll serve

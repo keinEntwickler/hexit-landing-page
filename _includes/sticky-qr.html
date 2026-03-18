@@ -1,0 +1,10 @@
+{% if site.appstore_link and site.appstore_link != "" %}
+
+<div class="sticky-qr">
+	<a class="appStoreLink" href="{{ site.appstore_link }}" target="_blank" rel="noopener noreferrer">
+		{% qr site.appstore_link %}
+		<img class="appStore" src="{{ 'assets/appstore.png' | relative_url }}" alt="{{ t.app_store_button | default: 'Download on the App Store' }}">
+	</a>
+</div>
+
+{% endif %}

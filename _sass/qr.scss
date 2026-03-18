@@ -1,0 +1,42 @@
+.sticky-qr {
+  display: none;
+  position: fixed;
+  width: 140px;
+  bottom: 1em;
+  right: 1em;
+  opacity: 0.9;
+  background-color: #3498db;
+  box-shadow: 0 0 10px #0c0c0c;
+  border-radius: 10px;
+
+  svg {
+    padding: 10px 10px 0;
+  }
+
+  a {
+    display: block;
+  }
+
+  .appStore {
+    display: block;
+    width: auto;
+    height: 40px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 10px;
+  }
+}
+
+.qr-code path {
+    fill: #000000;
+}
+
+.qr-code rect {
+    fill: none;
+}
+
+@media (pointer: fine) {
+  .sticky-qr {
+    display: block;
+  }
+}

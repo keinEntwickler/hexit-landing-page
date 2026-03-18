@@ -108,6 +108,7 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - mise.toml
 
 collections:
   pages:
