@@ -1,11 +1,11 @@
 .landingBody {
 	background-color: #0c0c0c !important;
 	background-image:
-		radial-gradient(1300px 900px at 15% 60%, rgba(100, 160, 140, 0.12) 0%, rgba(100, 160, 140, 0.08) 40%, transparent 72%),
-		radial-gradient(1200px 820px at 75% 20%, rgba(160, 202, 201, 0.10) 0%, rgba(160, 202, 201, 0.07) 36%, transparent 68%),
-		radial-gradient(1200px 860px at 50% 90%, rgba(130, 170, 120, 0.08) 0%, rgba(130, 170, 120, 0.06) 42%, transparent 74%),
-		radial-gradient(1100px 760px at 90% 70%, rgba(80, 140, 160, 0.10) 0%, rgba(80, 140, 160, 0.07) 38%, transparent 70%),
-		radial-gradient(1000px 700px at 30% 15%, rgba(160, 180, 140, 0.06) 0%, rgba(160, 180, 140, 0.04) 38%, transparent 68%),
+		radial-gradient(1300px 900px at 15% 60%, rgba(82, 233, 229, 0.18) 0%, rgba(82, 233, 229, 0.10) 40%, transparent 72%),
+		radial-gradient(1200px 820px at 75% 20%, rgba(247, 100, 173, 0.15) 0%, rgba(247, 100, 173, 0.08) 36%, transparent 68%),
+		radial-gradient(1200px 860px at 50% 90%, rgba(82, 233, 229, 0.12) 0%, rgba(82, 233, 229, 0.07) 42%, transparent 74%),
+		radial-gradient(1100px 760px at 90% 70%, rgba(247, 100, 173, 0.14) 0%, rgba(247, 100, 173, 0.08) 38%, transparent 70%),
+		radial-gradient(1000px 700px at 30% 15%, rgba(82, 233, 229, 0.10) 0%, rgba(82, 233, 229, 0.06) 38%, transparent 68%),
 		linear-gradient(140deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.00) 55%, rgba(255, 255, 255, 0.015) 100%);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -402,12 +402,12 @@ nav > ul li a:active {
 }
 
 // Colorful per-feature icon and title colors
-$feature-color-1: #e94560; // red — Quick Rounds
-$feature-color-2: #e67e22; // orange — Six Modes
-$feature-color-3: #27ae60; // green — Progress
+$feature-color-1: #F764AD; // pink — Quick Rounds
+$feature-color-2: #FF9F0A; // orange — Six Modes
+$feature-color-3: #52E9E5; // teal — Progress
 $feature-color-4: #f7dc6f; // yellow — Game Center
-$feature-color-5: #3498db; // blue — Privacy
-$feature-color-6: #9b59b6; // purple — iCloud
+$feature-color-5: #52E9E5; // teal — Privacy
+$feature-color-6: #AF52DE; // purple — iCloud
 
 .feature:nth-child(1) .iconTop { color: $feature-color-1; }
 .feature:nth-child(2) .iconTop { color: $feature-color-2; }
@@ -431,10 +431,10 @@ $feature-color-6: #9b59b6; // purple — iCloud
 	color: $social-icons-foreground-color;
 }
 
-// RGB social icons
-.footerIcons > a:nth-child(1) .socialIconTop { color: #e94560; } // R
-.footerIcons > a:nth-child(2) .socialIconTop { color: #27ae60; } // G
-.footerIcons > a:nth-child(3) .socialIconTop { color: #3498db; } // B
+// White social icons
+.footerIcons > a:nth-child(1) .socialIconTop { color: #ffffff; }
+.footerIcons > a:nth-child(2) .socialIconTop { color: #ffffff; }
+.footerIcons > a:nth-child(3) .socialIconTop { color: #ffffff; }
 
 .featureText {
 	margin-left: 18px;
@@ -534,7 +534,7 @@ $feature-color-6: #9b59b6; // purple — iCloud
 }
 
 .subPageBody .footerText a {
-	color: #e67e22 !important;
+	color: #52E9E5 !important;
 }
 
 .subPageBody .socialIconBack {
@@ -545,9 +545,9 @@ $feature-color-6: #9b59b6; // purple — iCloud
 	color: #555;
 }
 
-.subPageBody .footerIcons > a:nth-child(1) .socialIconTop { color: #e94560; }
-.subPageBody .footerIcons > a:nth-child(2) .socialIconTop { color: #27ae60; }
-.subPageBody .footerIcons > a:nth-child(3) .socialIconTop { color: #3498db; }
+.subPageBody .footerIcons > a:nth-child(1) .socialIconTop { color: #F764AD; }
+.subPageBody .footerIcons > a:nth-child(2) .socialIconTop { color: #30D158; }
+.subPageBody .footerIcons > a:nth-child(3) .socialIconTop { color: #52E9E5; }
 
 .subPageBody .footerLinks a {
 	color: #555;
@@ -603,7 +603,11 @@ footer {
 }
 
 .footerText a {
-	color: #e67e22 !important;
+	background: linear-gradient(90deg, #F764AD, #FF9F0A, #f7dc6f, #30D158, #52E9E5, #AF52DE);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: transparent !important;
 	text-decoration: none;
 }
 
@@ -632,6 +636,7 @@ footer {
 
 .footerLinks a {
 	margin-right: 30px;
+	color: #808090 !important;
 }
 
 .footerLinks a:last-child {
