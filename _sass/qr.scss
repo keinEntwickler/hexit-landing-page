@@ -10,8 +10,11 @@
   border-radius: 10px;
   transition: opacity 0.3s ease;
 
-  svg {
-    padding: 10px 10px 0;
+  .qr-code {
+    display: block;
+    width: 100%;
+    padding: 16px 16px 0;
+    box-sizing: border-box;
   }
 
   a {
@@ -26,14 +29,6 @@
     margin: 0 auto;
     padding: 10px;
   }
-}
-
-.qr-code path {
-    fill: #000000;
-}
-
-.qr-code rect {
-    fill: none;
 }
 
 @media (pointer: fine) {
